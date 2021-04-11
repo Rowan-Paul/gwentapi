@@ -50,8 +50,8 @@ const CardsSchema = new mongoose.Schema({
     ],
     required: true,
   },
-  ability: {
-    type: String,
+  abilities: {
+    type: [String],
     required: false,
     enum: [
       'Agile',

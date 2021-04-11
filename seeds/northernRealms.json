@@ -24,7 +24,7 @@
       { "_id": "60731dd4ed283d2c9c5ac0a4", "type": "Base deck" },
       { "_id": "60731dd4ed283d2c9c5ac0a5", "type": "Base deck" }
     ],
-    "ability": "Tight Bond"
+    "abilities": ["Tight Bond"]
   },
   {
     "_id": "60731dd4ed283d2c9c5ac0a6",
@@ -48,7 +48,7 @@
         "character": "Marquise Serenity"
       }
     ],
-    "ability": "Tight Bond"
+    "abilities": ["Tight Bond"]
   },
   {
     "_id": "60731dd4ed283d2c9c5ac0a9",
@@ -79,7 +79,7 @@
         "character": "Trader"
       }
     ],
-    "ability": "Tight Bond",
+    "abilities": ["Tight Bond"],
     "notes": "The merchant needs to be rescued first"
   },
   {
@@ -97,7 +97,7 @@
     "row": "Siege",
     "strength": 5,
     "locations": [{ "_id": "60731dd4ed283d2c9c5ac0b0", "type": "Base deck" }],
-    "ability": "Medic"
+    "abilities": "Medic"
   },
   {
     "_id": "60731dd4ed283d2c9c5ac0b1",
@@ -114,7 +114,7 @@
         "character": "Dijkstra"
       }
     ],
-    "ability": "Hero"
+    "abilities": ["Hero"]
   },
   {
     "_id": "60731dd4ed283d2c9c5ac0b3",
@@ -203,7 +203,7 @@
         "character": "Ravvy"
       }
     ],
-    "ability": "Hero"
+    "abilities": ["Hero"]
   },
   {
     "_id": "60731dd4ed283d2c9c5ac0bf",
@@ -216,7 +216,7 @@
       { "_id": "60731dd4ed283d2c9c5ac0c1", "type": "Base deck" },
       { "_id": "60731dd4ed283d2c9c5ac0c2", "type": "Base deck" }
     ],
-    "ability": "Morale Boost"
+    "abilities": ["Morale Boost"]
   },
   {
     "_id": "60731dd4ed283d2c9c5ac0c3",
@@ -233,7 +233,7 @@
     "row": "Ranged",
     "strength": 10,
     "locations": [{ "_id": "60731dd4ed283d2c9c5ac0c6", "type": "Random" }],
-    "ability": "Hero"
+    "abilities": ["Hero"]
   },
   {
     "_id": "60731dd4ed283d2c9c5ac0c7",
@@ -261,7 +261,7 @@
     "row": "Close",
     "strength": 5,
     "locations": [{ "_id": "60731dd4ed283d2c9c5ac0cc", "type": "Base deck" }],
-    "ability": "Spy"
+    "abilities": ["Spy"]
   },
   {
     "_id": "60731dd4ed283d2c9c5ac0cd",
@@ -321,7 +321,7 @@
         "character": "Bloody Baron, Phillip Strenger"
       }
     ],
-    "ability": "Spy"
+    "abilities": ["Spy"]
   },
   {
     "_id": "60731dd4ed283d2c9c5ac0da",
@@ -346,7 +346,7 @@
         "character": "Innkeeper"
       }
     ],
-    "ability": "Spy"
+    "abilities": ["Spy"]
   },
   {
     "_id": "60731dd4ed283d2c9c5ac0de",
@@ -374,7 +374,7 @@
         "character": "Hadko the Card Prodigy"
       }
     ],
-    "ability": "Hero"
+    "abilities": ["Hero"]
   },
   {
     "_id": "60731dd4ed283d2c9c5ac0e3",
