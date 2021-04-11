@@ -6,7 +6,7 @@ const router = express.Router()
 const Cards = require('../../../models/Cards')
 
 router.get('/', (req, res) => {
-  Cards.find({}, '-__v', (err, cards) => {
+  Cards.find({}, { __v: 0 }, (err, cards) => {
     if (err) {
       return res.status(500)
     }

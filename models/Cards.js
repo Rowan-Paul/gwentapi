@@ -1,5 +1,28 @@
 const mongoose = require('mongoose')
 
+const LocationsSchema = new mongoose.Schema(
+  {
+    type: {
+      type: String,
+      required: true,
+      enum: ['Quest', 'Buy', 'Base deck', 'Random', 'Win'],
+    },
+    territory: {
+      type: String,
+      required: false,
+    },
+    location: {
+      type: String,
+      required: false,
+    },
+    character: {
+      type: String,
+      required: false,
+    },
+  },
+  { _id: false }
+)
+
 const CardsSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -27,27 +50,7 @@ const CardsSchema = new mongoose.Schema({
     required: false,
   },
   locations: {
-    type: [
-      {
-        type: {
-          type: String,
-          required: true,
-          enum: ['Quest', 'Buy', 'Base deck', 'Random', 'Win'],
-        },
-        territory: {
-          type: String,
-          required: false,
-        },
-        location: {
-          type: String,
-          required: false,
-        },
-        character: {
-          type: String,
-          required: false,
-        },
-      },
-    ],
+    type: [LocationsSchema],
     required: true,
   },
   abilities: {
