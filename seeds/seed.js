@@ -7,7 +7,8 @@ const db = mongoose.connection
 
 const Cards = mongoose.model('Cards')
 
-const NorthernRealms = require('./northernRealms.json')
+const northernRealms = require('./northernRealms.json')
+const monsters = require('./monsters.json')
 
 mongoose
   .connect(`mongodb://localhost:27017/${dbName}`, {
@@ -27,7 +28,7 @@ mongoose
 async function seedCards() {
   await Cards.deleteMany()
 
-  await Cards.insertMany(NorthernRealms)
+  await Cards.insertMany(northernRealms)
   await Cards.insertMany(monsters)
 }
 
