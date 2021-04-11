@@ -1,20 +1,5 @@
 const mongoose = require('mongoose')
 
-const LocationSchema = new mongoose.Schema({
-  location: {
-    type: String,
-    required: true,
-  },
-  territory: {
-    type: String,
-    required: false,
-  },
-  character: {
-    type: String,
-    required: false,
-  },
-})
-
 const CardsSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -41,8 +26,27 @@ const CardsSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
-  location: {
-    type: LocationSchema,
+  locations: {
+    type: [
+      {
+        type: {
+          type: String,
+          required: true,
+        },
+        territory: {
+          type: String,
+          required: false,
+        },
+        location: {
+          type: String,
+          required: false,
+        },
+        character: {
+          type: String,
+          required: false,
+        },
+      },
+    ],
     required: true,
   },
   ability: {
@@ -70,6 +74,10 @@ const CardsSchema = new mongoose.Schema({
       'Mardroeme',
       'Berserker',
     ],
+  },
+  notes: {
+    type: String,
+    required: false,
   },
 })
 
