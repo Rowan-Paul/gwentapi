@@ -5,7 +5,7 @@ const LocationsSchema = new mongoose.Schema(
     type: {
       type: String,
       required: true,
-      enum: ['Quest', 'Buy', 'Base deck', 'Random', 'Win'],
+      enum: ['Quest', 'Buy', 'Base deck', 'Random', 'Win', 'Summoned'],
     },
     territory: {
       type: String,
@@ -42,7 +42,7 @@ const CardsSchema = new mongoose.Schema({
   },
   row: {
     type: String,
-    required: true,
+    required: false,
     enum: ['Close', 'Ranged', 'Siege', 'Leader', 'Agile'],
   },
   strength: {
@@ -56,6 +56,7 @@ const CardsSchema = new mongoose.Schema({
   abilities: {
     type: [String],
     required: false,
+    default: undefined,
     enum: [
       'Agile',
       'Hero',
