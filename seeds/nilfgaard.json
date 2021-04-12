@@ -1,6 +1,5 @@
 [
   {
-    "abilities": [],
     "name": "Albrich",
     "deck": "Nilfgaard",
     "row": "Ranged",
@@ -15,7 +14,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Assire var Anahid",
     "deck": "Nilfgaard",
     "row": "Ranged",
@@ -23,7 +21,6 @@
     "locations": [{ "type": "Random" }]
   },
   {
-    "abilities": [],
     "name": "Black Infanty Archer",
     "deck": "Nilfgaard",
     "row": "Ranged",
@@ -45,7 +42,6 @@
     "notes": "The Claywich trader needs to be rescued first"
   },
   {
-    "abilities": [],
     "name": "Cahir Mawr Dyffryn aep Ceallach",
     "deck": "Nilfgaard",
     "row": "Close",
@@ -53,7 +49,6 @@
     "locations": [{ "type": "Random" }]
   },
   {
-    "abilities": [],
     "name": "Cynthia",
     "deck": "Nilfgaard",
     "row": "Ranged",
@@ -68,7 +63,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Emhyr var Emreis: Emperor of Nilfgaard",
     "deck": "Nilfgaard",
     "row": "Leader",
@@ -83,7 +77,6 @@
     "notes": "Emperor of Nilfgaard: Look at 3 random cards from your opponent's hand."
   },
   {
-    "abilities": [],
     "name": "Emhyr var Emreis: His Imperial Majesty",
     "deck": "Nilfgaard",
     "row": "Leader",
@@ -91,7 +84,6 @@
     "notes": "His Imperial Majesty: Pick a Torrential Rain card from your deck and play it instantly."
   },
   {
-    "abilities": [],
     "name": "Emhyr var Emreis: Invader of the North",
     "deck": "Nilfgaard",
     "row": "Leader",
@@ -106,7 +98,6 @@
     "notes": "Invader of the North: Abilities that restore a unit to the battlefield restore a randomly-chosen unit. Affects both players."
   },
   {
-    "abilities": [],
     "name": "Emhyr var Emreis: The Relentless",
     "deck": "Nilfgaard",
     "row": "Leader",
@@ -121,7 +112,6 @@
     "notes": "The Relentless: Draw a card from your opponent's discard pile."
   },
   {
-    "abilities": [],
     "name": "Emhyr var Emreis: The White Flame",
     "deck": "Nilfgaard",
     "row": "Leader",
@@ -156,7 +146,6 @@
     "notes": "The merchant needs to be rescued first"
   },
   {
-    "abilities": [],
     "name": "Fringilla Vigo",
     "deck": "Nilfgaard",
     "row": "Ranged",
@@ -170,7 +159,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Heavy Zerrikanian Fire Scorpion",
     "deck": "Nilfgaard",
     "row": "Siege",
@@ -248,7 +236,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Morteisen",
     "deck": "Nilfgaard",
     "row": "Close",
@@ -305,7 +292,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Putkammer",
     "deck": "Nilfgaard",
     "row": "Ranged",
@@ -321,7 +307,6 @@
     "notes": "The Claywich trader needs to be rescued first"
   },
   {
-    "abilities": [],
     "name": "Rainfarn",
     "deck": "Nilfgaard",
     "row": "Close",
@@ -337,7 +322,6 @@
     "notes": "The Claywich trader needs to be rescued first"
   },
   {
-    "abilities": [],
     "name": "Renuald aep Matsen",
     "deck": "Nilfgaard",
     "row": "Ranged",
@@ -345,7 +329,6 @@
     "locations": [{ "type": "Random" }]
   },
   {
-    "abilities": [],
     "name": "Rotten Mangonel",
     "deck": "Nilfgaard",
     "row": "Siege",
@@ -361,7 +344,6 @@
     "locations": [{ "type": "Random" }]
   },
   {
-    "abilities": [],
     "name": "Siege Engineer",
     "deck": "Nilfgaard",
     "row": "Siege",
@@ -405,7 +387,6 @@
     "locations": [{ "type": "Random" }]
   },
   {
-    "abilities": [],
     "name": "Sweers",
     "deck": "Nilfgaard",
     "row": "Ranged",
@@ -436,7 +417,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Vanhemar",
     "deck": "Nilfgaard",
     "row": "Ranged",
@@ -452,7 +432,6 @@
     "locations": [{ "type": "Random" }]
   },
   {
-    "abilities": [],
     "name": "Vreemde",
     "deck": "Nilfgaard",
     "row": "Close",
@@ -481,7 +460,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Zerrikanian Fire Scorpion",
     "deck": "Nilfgaard",
     "row": "Siege",

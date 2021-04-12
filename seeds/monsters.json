@@ -27,7 +27,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Arachas Behemoth",
     "deck": "Monsters",
     "row": "Siege",
@@ -35,7 +34,6 @@
     "locations": [{ "type": "Random" }]
   },
   {
-    "abilities": [],
     "name": "Botchling",
     "deck": "Monsters",
     "row": "Close",
@@ -50,7 +48,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Celaeno Harpy",
     "deck": "Monsters",
     "row": "Agile",
@@ -59,7 +56,6 @@
     "notes": "Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
   },
   {
-    "abilities": [],
     "name": "Cockatrice",
     "deck": "Monsters",
     "row": "Ranged",
@@ -120,7 +116,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Earth Elemental",
     "deck": "Monsters",
     "row": "Siege",
@@ -135,7 +130,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Crone: Brewess",
     "deck": "Monsters",
     "row": "Ranged",
@@ -143,7 +137,6 @@
     "locations": [{ "type": "Random" }]
   },
   {
-    "abilities": [],
     "name": "Eredin Bréacc Glas: The Treacherous",
     "deck": "Monsters",
     "row": "Leader",
@@ -158,7 +151,6 @@
     "notes": "Doubles the strength of all spy cards (affects both players)."
   },
   {
-    "abilities": [],
     "name": "Eredin: Bringer of Death",
     "deck": "Monsters",
     "row": "Leader",
@@ -173,7 +165,6 @@
     "notes": "Restore a card from your discard pile to your hand."
   },
   {
-    "abilities": [],
     "name": "Eredin: Commander of the Red Riders",
     "deck": "Monsters",
     "row": "Leader",
@@ -188,7 +179,6 @@
     "notes": "Double the strength of all your Close Combat units (unless a Commander's horn is also present on that row)."
   },
   {
-    "abilities": [],
     "name": "Eredin: Destroyer of Worlds",
     "deck": "Monsters",
     "row": "Leader",
@@ -201,7 +191,6 @@
     "notes": "Discard 2 card and draw 1 card of your choice from your deck."
   },
   {
-    "abilities": [],
     "name": "Eredin: King of the Wild Hunt",
     "deck": "Monsters",
     "row": "Leader",
@@ -209,7 +198,6 @@
     "notes": "Pick any weather card from your deck and play it instantly."
   },
   {
-    "abilities": [],
     "name": "Fiend",
     "deck": "Monsters",
     "row": "Close",
@@ -224,7 +212,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Fire Elemental",
     "deck": "Monsters",
     "row": "Siege",
@@ -232,7 +219,6 @@
     "locations": [{ "type": "Random" }]
   },
   {
-    "abilities": [],
     "name": "Foglet",
     "deck": "Monsters",
     "row": "Close",
@@ -247,7 +233,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Forktail",
     "deck": "Monsters",
     "row": "Close",
@@ -255,7 +240,6 @@
     "locations": [{ "type": "Random" }]
   },
   {
-    "abilities": [],
     "name": "Frightener",
     "deck": "Monsters",
     "row": "Close",
@@ -263,7 +247,6 @@
     "locations": [{ "type": "Random" }]
   },
   {
-    "abilities": [],
     "name": "Gargoyle",
     "deck": "Monsters",
     "row": "Ranged",
@@ -288,7 +271,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Grave Hag",
     "deck": "Monsters",
     "row": "Ranged",
@@ -296,7 +278,6 @@
     "locations": [{ "type": "Random" }]
   },
   {
-    "abilities": [],
     "name": "Griffin",
     "deck": "Monsters",
     "row": "Close",
@@ -304,7 +285,6 @@
     "locations": [{ "type": "Random" }]
   },
   {
-    "abilities": [],
     "name": "Harpy",
     "deck": "Monsters",
     "row": "Agile",
@@ -320,7 +300,6 @@
     "notes": "Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
   },
   {
-    "abilities": [],
     "name": "Ice Giant",
     "deck": "Monsters",
     "row": "Siege",
@@ -367,7 +346,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Nekker",
     "deck": "Monsters",
     "row": "Close",
@@ -389,7 +367,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Plague Maiden",
     "deck": "Monsters",
     "row": "Close",
@@ -397,7 +374,6 @@
     "locations": [{ "type": "Random" }]
   },
   {
-    "abilities": [],
     "name": "Toad",
     "deck": "Monsters",
     "row": "Ranged",
@@ -476,7 +452,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Werewolf",
     "deck": "Monsters",
     "row": "Close",
@@ -491,7 +466,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Wyvern",
     "deck": "Monsters",
     "row": "Ranged",

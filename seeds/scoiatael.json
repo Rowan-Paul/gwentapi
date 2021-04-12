@@ -1,6 +1,5 @@
 [
   {
-    "abilities": [],
     "name": "Barclay Els",
     "deck": "Scoia'tael",
     "row": "Agile",
@@ -16,7 +15,6 @@
     "notes": "Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
   },
   {
-    "abilities": [],
     "name": "Ciaran aep Easnillien",
     "deck": "Scoia'tael",
     "row": "Agile",
@@ -25,7 +23,6 @@
     "notes": "Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
   },
   {
-    "abilities": [],
     "name": "CDennis Cranmer",
     "deck": "Scoia'tael",
     "row": "Close",
@@ -33,7 +30,6 @@
     "locations": [{ "type": "Random" }]
   },
   {
-    "abilities": [],
     "name": "Dol Blathanna Archer",
     "deck": "Scoia'tael",
     "row": "Ranged",
@@ -48,7 +44,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Dol Blathanna Scout",
     "deck": "Scoia'tael",
     "row": "Agile",
@@ -72,7 +67,6 @@
     "notes": "Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
   },
   {
-    "abilities": [],
     "name": "Dwarven Skirmisher",
     "deck": "Scoia'tael",
     "row": "Close",
@@ -121,7 +115,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Filavandrel aen Fidhail",
     "deck": "Scoia'tael",
     "row": "Agile",
@@ -130,7 +123,6 @@
     "notes": "Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
   },
   {
-    "abilities": [],
     "name": "Francesca Finabair: Daisy of the Valley",
     "deck": "Scoia'tael",
     "row": "Leader",
@@ -145,7 +137,6 @@
     "notes": "Daisy of the Valley: Draw an extra card at the beginning of the battle."
   },
   {
-    "abilities": [],
     "name": "Francesca Findabair: Hope of the Aen Seidhe",
     "deck": "Scoia'tael",
     "row": "Leader",
@@ -160,7 +151,6 @@
     "notes": "Hope of the Aen Seidhe: Move agile units to whichever valid row maximizes their strength (don't move units already in optimal row)."
   },
   {
-    "abilities": [],
     "name": "Francesca Findabair: Pureblood Elf",
     "deck": "Scoia'tael",
     "row": "Leader",
@@ -168,7 +158,6 @@
     "notes": "Pureblood Elf: Pick a Biting Frost card from your deck and play it instantly."
   },
   {
-    "abilities": [],
     "name": "Francesca Findabair: Queen of Dol Blathanna",
     "deck": "Scoia'tael",
     "row": "Leader",
@@ -183,7 +172,6 @@
     "notes": "Queen of Dol Blathanna: Destroy your enemy's strongest Close Combat unit(s) if the combined strength of all his or her Close Combat units is 10 or more."
   },
   {
-    "abilities": [],
     "name": "Francesca Findabair: The Beautiful",
     "deck": "Scoia'tael",
     "row": "Leader",
@@ -252,7 +240,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Ida Emean aep Sivney",
     "deck": "Scoia'tael",
     "row": "Ranged",
@@ -344,7 +331,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Riordain",
     "deck": "Scoia'tael",
     "row": "Ranged",
@@ -367,7 +353,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Schirrú",
     "deck": "Scoia'tael",
     "row": "Siege",
@@ -393,7 +378,6 @@
     ]
   },
   {
-    "abilities": [],
     "name": "Vrihedd Brigade Recruit",
     "deck": "Scoia'tael",
     "row": "Agile",
@@ -416,7 +400,6 @@
     "notes": "Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
   },
   {
-    "abilities": [],
     "name": "Yeavinn",
     "deck": "Scoia'tael",
     "row": "Agile",
