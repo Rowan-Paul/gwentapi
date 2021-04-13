@@ -1,358 +1,358 @@
 [
   {
-    "name": "Biting Frost",
-    "deck": "Neutral",
+    "name": "biting frost",
+    "deck": "neutral",
     "locations": [
-      { "type": "Random" },
-      { "type": "Base deck" },
-      { "type": "Base deck" }
+      { "type": "random" },
+      { "type": "base deck" },
+      { "type": "base deck" }
     ],
-    "effect": "Weather",
-    "notes": "Sets the strength of all Close Combat cards to 1 for both players."
+    "effect": "weather",
+    "notes": "sets the strength of all close combat cards to 1 for both players."
   },
   {
-    "name": "Bovine Defense Force",
-    "deck": "Neutral",
-    "row": "Close",
+    "name": "bovine defense force",
+    "deck": "neutral",
+    "row": "close",
     "strength": 8,
-    "locations": [{ "type": "Summoned" }],
-    "notes": "Summoned by the removal of the Cow card during play"
+    "locations": [{ "type": "summoned" }],
+    "notes": "summoned by the removal of the cow card during play"
   },
   {
-    "name": "Cirilla Fiona Elen Riannon",
-    "deck": "Neutral",
-    "row": "Close",
+    "name": "cirilla fiona elen riannon",
+    "deck": "neutral",
+    "row": "close",
     "locations": [
       {
-        "type": "Quest",
-        "location": "Won after completing Gwent: Big City Players"
+        "type": "quest",
+        "location": "won after completing gwent: big city players"
       }
     ],
-    "abilities": ["Hero"]
+    "abilities": ["hero"]
   },
   {
-    "name": "Clear Weather",
-    "deck": "Neutral",
+    "name": "clear weather",
+    "deck": "neutral",
     "locations": [
-      { "type": "Random" },
-      { "type": "Base deck" },
-      { "type": "Base deck" }
+      { "type": "random" },
+      { "type": "base deck" },
+      { "type": "base deck" }
     ],
-    "effect": "Weather",
-    "notes": "Removes all Weather Card (Biting Frost, Impenetrable Fog and Torrential Rain) effects."
+    "effect": "weather",
+    "notes": "removes all weather card (biting frost, impenetrable fog and torrential rain) effects."
   },
   {
-    "name": "Commander's Horn",
-    "deck": "Neutral",
+    "name": "commander's horn",
+    "deck": "neutral",
     "locations": [
       {
-        "type": "Buy",
-        "territory": "Velen",
-        "location": "Crossroads Inn",
-        "character": "Innkeeper"
+        "type": "buy",
+        "territory": "velen",
+        "location": "crossroads inn",
+        "character": "innkeeper"
       },
       {
-        "type": "Buy",
-        "territory": "Velen",
-        "location": "Lindenvale",
-        "character": "Merchant"
+        "type": "buy",
+        "territory": "velen",
+        "location": "lindenvale",
+        "character": "merchant"
       },
       {
-        "type": "Buy",
-        "territory": "Novigrad or Velen",
-        "location": "Passiflora or Circus camp near Carstenm",
-        "character": "Innkeeper or trader"
+        "type": "buy",
+        "territory": "novigrad or velen",
+        "location": "passiflora or circus camp near carstenm",
+        "character": "innkeeper or trader"
       },
       {
-        "type": "Buy",
-        "territory": "Novigrad",
-        "location": "The Alchemy Inn, Oxenfurt",
-        "character": "Stjepan"
+        "type": "buy",
+        "territory": "novigrad",
+        "location": "the alchemy inn, oxenfurt",
+        "character": "stjepan"
       }
     ],
-    "effect": "Commander's Horn",
-    "notes": "Doubles the strength of all unit cards in that row. Limited to 1 per row."
+    "effect": "commander's horn",
+    "notes": "doubles the strength of all unit cards in that row. limited to 1 per row."
   },
   {
-    "name": "Cow",
-    "deck": "Neutral",
-    "row": "Ranged",
+    "name": "cow",
+    "deck": "neutral",
+    "row": "ranged",
     "locations": [
-      { "type": "Win", "territory": "Velen", "location": "A barn, Brunwich" }
+      { "type": "win", "territory": "velen", "location": "a barn, brunwich" }
     ],
-    "effect": "Summon Avenger"
+    "effect": "summon avenger"
   },
   {
-    "name": "Dandelion",
-    "deck": "Neutral",
-    "row": "Close",
+    "name": "dandelion",
+    "deck": "neutral",
+    "row": "close",
     "locations": [
       {
-        "type": "Quest",
-        "territory": "Novigrad",
-        "location": "Vegelbud Estate",
-        "character": "quest A Matter of Life and Death"
+        "type": "quest",
+        "territory": "novigrad",
+        "location": "vegelbud estate",
+        "character": "quest a matter of life and death"
       }
     ],
-    "effect": "Commander's Horn"
+    "effect": "commander's horn"
   },
   {
-    "name": "Decoy",
-    "deck": "Neutral",
+    "name": "decoy",
+    "deck": "neutral",
     "locations": [
       {
-        "type": "Buy",
-        "territory": "White Orchard",
-        "location": "White Orchard Tavern",
-        "character": "Innkeeperess or Trader outside"
+        "type": "buy",
+        "territory": "white orchard",
+        "location": "white orchard tavern",
+        "character": "innkeeperess or trader outside"
       },
       {
-        "type": "Buy",
-        "territory": "Velen",
-        "location": "Crow's Perch",
-        "character": "Quartermasters Baron's Store"
+        "type": "buy",
+        "territory": "velen",
+        "location": "crow's perch",
+        "character": "quartermasters baron's store"
       },
       {
-        "type": "Buy",
-        "territory": "Novigrad",
-        "location": "Seven Cats Inn",
-        "character": "Innkeeper"
+        "type": "buy",
+        "territory": "novigrad",
+        "location": "seven cats inn",
+        "character": "innkeeper"
       }
     ],
-    "effect": "Decoy"
+    "effect": "decoy"
   },
   {
-    "name": "Emiel Regis Rohellec Terzieff",
-    "deck": "Neutral",
-    "row": "Close",
+    "name": "emiel regis rohellec terzieff",
+    "deck": "neutral",
+    "row": "close",
     "strength": 5,
     "locations": [
       {
-        "type": "Buy",
-        "territory": "White Orchard",
-        "location": "White Orchard Tavern",
-        "character": "Innkeeperess or Trader outside"
+        "type": "buy",
+        "territory": "white orchard",
+        "location": "white orchard tavern",
+        "character": "innkeeperess or trader outside"
       }
     ]
   },
   {
-    "name": "Gaunter O'Dimm",
-    "deck": "Neutral",
-    "row": "Siege",
+    "name": "gaunter o'dimm",
+    "deck": "neutral",
+    "row": "siege",
     "strength": 2,
     "locations": [
       {
-        "type": "Quest",
-        "territory": "Velen",
-        "location": "Auction House",
-        "character": "Hilbert (quest Open Sesame!)"
+        "type": "quest",
+        "territory": "velen",
+        "location": "auction house",
+        "character": "hilbert (quest open sesame!)"
       }
     ],
-    "abilities": ["Muster"]
+    "abilities": ["muster"]
   },
   {
-    "name": "Gaunter O'Dimm: Darkness",
-    "deck": "Neutral",
-    "row": "Ranged",
+    "name": "gaunter o'dimm: darkness",
+    "deck": "neutral",
+    "row": "ranged",
     "strength": 4,
     "locations": [
       {
-        "type": "Buy",
-        "territory": "Velen",
-        "location": "Upper Mill",
-        "character": "Dula kh'Amanni"
+        "type": "buy",
+        "territory": "velen",
+        "location": "upper mill",
+        "character": "dula kh'amanni"
       },
       {
-        "type": "Buy",
-        "territory": "Velen",
-        "location": "Circus camp near Carsten",
-        "character": "Trader"
+        "type": "buy",
+        "territory": "velen",
+        "location": "circus camp near carsten",
+        "character": "trader"
       },
       {
-        "type": "Buy",
-        "territory": "Velen",
-        "location": "Circus camp near Carsten",
-        "character": "Trader"
+        "type": "buy",
+        "territory": "velen",
+        "location": "circus camp near carsten",
+        "character": "trader"
       }
     ],
-    "abilities": ["Muster"]
+    "abilities": ["muster"]
   },
   {
-    "name": "Geralt of Rivia",
-    "deck": "Neutral",
-    "row": "Close",
+    "name": "geralt of rivia",
+    "deck": "neutral",
+    "row": "close",
     "strength": 15,
     "locations": [
       {
-        "type": "Quest",
-        "territory": "Novigrad",
-        "location": "Seven Cats Inn",
-        "character": "Thaler (quest: Gwent: Playing Thaler)"
+        "type": "quest",
+        "territory": "novigrad",
+        "location": "seven cats inn",
+        "character": "thaler (quest: gwent: playing thaler)"
       }
     ],
-    "abilities": ["Hero"]
+    "abilities": ["hero"]
   },
   {
-    "name": "Impenetrable Fog",
-    "deck": "Neutral",
+    "name": "impenetrable fog",
+    "deck": "neutral",
     "locations": [
-      { "type": "Random" },
-      { "type": "Base deck" },
-      { "type": "Base deck" }
+      { "type": "random" },
+      { "type": "base deck" },
+      { "type": "base deck" }
     ],
-    "effect": "Weather",
-    "notes": "Sets the strength of all Ranged Combat cards to 1 for both players."
+    "effect": "weather",
+    "notes": "sets the strength of all ranged combat cards to 1 for both players."
   },
   {
-    "name": "Mysterious Elf (Avallach)",
-    "deck": "Neutral",
-    "row": "Close",
+    "name": "mysterious elf (avallach)",
+    "deck": "neutral",
+    "row": "close",
     "strength": 0,
     "locations": [
       {
-        "type": "Quest",
-        "territory": "Skellige",
-        "location": "Gedyneith, Ard Skellig",
-        "character": "Gremist (quest Gwent: Skellige Style)"
+        "type": "quest",
+        "territory": "skellige",
+        "location": "gedyneith, ard skellig",
+        "character": "gremist (quest gwent: skellige style)"
       }
     ],
-    "abilities": ["Hero", "Spy"],
-    "notes": "After completing Practicum In Advanced Alchemy"
+    "abilities": ["hero", "spy"],
+    "notes": "after completing practicum in advanced alchemy"
   },
   {
-    "name": "Olgierd von Everec",
-    "deck": "Neutral",
-    "row": "Agile",
+    "name": "olgierd von everec",
+    "deck": "neutral",
+    "row": "agile",
     "strength": 6,
     "locations": [
       {
-        "type": "Win",
-        "territory": "Novigrad",
-        "location": "Shani's house",
-        "character": "Shani or Shani's house if she's left"
+        "type": "win",
+        "territory": "novigrad",
+        "location": "shani's house",
+        "character": "shani or shani's house if she's left"
       }
     ],
-    "notes": "Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+    "notes": "agile: can be placed in either the close combat or the ranged combat row. cannot be moved once placed."
   },
   {
-    "name": "Scorch",
-    "deck": "Neutral",
+    "name": "scorch",
+    "deck": "neutral",
     "locations": [
       {
-        "type": "Buy",
-        "territory": "Novigrad",
-        "location": "Cunny of the Goose",
-        "character": "Innkeep"
+        "type": "buy",
+        "territory": "novigrad",
+        "location": "cunny of the goose",
+        "character": "innkeep"
       },
       {
-        "type": "Buy",
-        "territory": "Skellige",
-        "location": "The New Port, Kaer Trolde Harbor, Spikeroog",
-        "character": "Jonas the Innkeeper"
+        "type": "buy",
+        "territory": "skellige",
+        "location": "the new port, kaer trolde harbor, spikeroog",
+        "character": "jonas the innkeeper"
       },
       {
-        "type": "Buy",
-        "territory": "Skellige",
-        "location": "Urialla Harbor, An Skellig",
-        "character": "Innkeeper"
+        "type": "buy",
+        "territory": "skellige",
+        "location": "urialla harbor, an skellig",
+        "character": "innkeeper"
       }
     ],
-    "effect": "Scorch"
+    "effect": "scorch"
   },
   {
-    "name": "Skellige Storm",
-    "deck": "Neutral",
+    "name": "skellige storm",
+    "deck": "neutral",
     "locations": [
       {
-        "type": "Win",
-        "territory": "Toussaint",
-        "location": "Tourney Grounds",
-        "character": "Barber"
+        "type": "win",
+        "territory": "toussaint",
+        "location": "tourney grounds",
+        "character": "barber"
       },
       {
-        "type": "Win",
-        "territory": "Toussaint",
-        "location": "Tourney Grounds",
-        "character": "Armorer"
+        "type": "win",
+        "territory": "toussaint",
+        "location": "tourney grounds",
+        "character": "armorer"
       },
       {
-        "type": "Win",
-        "territory": "Toussaint",
-        "location": "San Sebastian (East side of Beauclair)",
-        "character": "Butcher"
+        "type": "win",
+        "territory": "toussaint",
+        "location": "san sebastian (east side of beauclair)",
+        "character": "butcher"
       }
     ],
-    "effect": "Weather",
-    "notes": "Reduces the Strength of all Range and Siege Units to 1."
+    "effect": "weather",
+    "notes": "reduces the strength of all range and siege units to 1."
   },
   {
-    "name": "Torrential Rain",
-    "deck": "Neutral",
+    "name": "torrential rain",
+    "deck": "neutral",
     "locations": [
-      { "type": "Random" },
-      { "type": "Base deck" },
-      { "type": "Base deck" }
+      { "type": "random" },
+      { "type": "base deck" },
+      { "type": "base deck" }
     ],
-    "effect": "Weather",
-    "notes": "Sets the strength of all Siege Combat cards to 1 for both players."
+    "effect": "weather",
+    "notes": "sets the strength of all siege combat cards to 1 for both players."
   },
   {
-    "name": "Triss Merigold",
-    "deck": "Neutral",
-    "row": "Close",
+    "name": "triss merigold",
+    "deck": "neutral",
+    "row": "close",
     "strength": 7,
     "locations": [
-      { "type": "Quest", "character": "Lambert (quest: Gwent: Old Pals)" }
+      { "type": "quest", "character": "lambert (quest: gwent: old pals)" }
     ]
   },
   {
-    "name": "Vesemir",
-    "deck": "Neutral",
-    "row": "Close",
+    "name": "vesemir",
+    "deck": "neutral",
+    "row": "close",
     "strength": 6,
     "locations": [
       {
-        "type": "Quest",
-        "territory": "Novigrad",
-        "location": "Hierach Square",
-        "character": "Vimme Vivaldi (quest: Gwent: Big City Players)"
+        "type": "quest",
+        "territory": "novigrad",
+        "location": "hierach square",
+        "character": "vimme vivaldi (quest: gwent: big city players)"
       }
     ]
   },
   {
-    "name": "Villentretenmerth",
-    "deck": "Neutral",
-    "row": "Close",
+    "name": "villentretenmerth",
+    "deck": "neutral",
+    "row": "close",
     "strength": 7,
-    "locations": [{ "type": "Random" }],
-    "effect": "Scorch"
+    "locations": [{ "type": "random" }],
+    "effect": "scorch"
   },
   {
-    "name": "Yennefer of Vengerberg",
-    "deck": "Neutral",
-    "row": "Ranged",
+    "name": "yennefer of vengerberg",
+    "deck": "neutral",
+    "row": "ranged",
     "strength": 7,
     "locations": [
       {
-        "type": "Quest",
-        "territory": "Novigrad",
-        "location": "The Alchemy Inn, Oxenfurt",
-        "character": "Stjepan (quest: Gwent: Playing Innkeeps)"
+        "type": "quest",
+        "territory": "novigrad",
+        "location": "the alchemy inn, oxenfurt",
+        "character": "stjepan (quest: gwent: playing innkeeps)"
       }
     ],
-    "abilities": ["Hero", "Medic"]
+    "abilities": ["hero", "medic"]
   },
   {
-    "name": "Zoltan Chivay",
-    "deck": "Neutral",
-    "row": "Close",
+    "name": "zoltan chivay",
+    "deck": "neutral",
+    "row": "close",
     "strength": 5,
     "locations": [
       {
-        "type": "Quest",
-        "territory": "White Orchard",
-        "location": "White Orchard Tavern",
-        "character": "Scholar or under the Hanged Man's Tree"
+        "type": "quest",
+        "territory": "white orchard",
+        "location": "white orchard tavern",
+        "character": "scholar or under the hanged man's tree"
       }
     ]
   }

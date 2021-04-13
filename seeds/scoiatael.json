@@ -1,417 +1,417 @@
 [
   {
-    "name": "Barclay Els",
-    "deck": "Scoia'tael",
-    "row": "Agile",
+    "name": "barclay els",
+    "deck": "scoia'tael",
+    "row": "agile",
     "strength": 6,
     "locations": [
       {
-        "type": "Buy",
-        "territory": "Novigrad or Velen",
-        "location": "Golden Sturgeon or Circus camp near Carsten",
-        "character": "Innkeeper or Trader"
+        "type": "buy",
+        "territory": "novigrad or velen",
+        "location": "golden sturgeon or circus camp near carsten",
+        "character": "innkeeper or trader"
       }
     ],
-    "notes": "Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+    "notes": "agile: can be placed in either the close combat or the ranged combat row. cannot be moved once placed."
   },
   {
-    "name": "Ciaran aep Easnillien",
-    "deck": "Scoia'tael",
-    "row": "Agile",
+    "name": "ciaran aep easnillien",
+    "deck": "scoia'tael",
+    "row": "agile",
     "strength": 3,
-    "locations": [{ "type": "Random" }],
-    "notes": "Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+    "locations": [{ "type": "random" }],
+    "notes": "agile: can be placed in either the close combat or the ranged combat row. cannot be moved once placed."
   },
   {
-    "name": "CDennis Cranmer",
-    "deck": "Scoia'tael",
-    "row": "Close",
+    "name": "cdennis cranmer",
+    "deck": "scoia'tael",
+    "row": "close",
     "strength": 6,
-    "locations": [{ "type": "Random" }]
+    "locations": [{ "type": "random" }]
   },
   {
-    "name": "Dol Blathanna Archer",
-    "deck": "Scoia'tael",
-    "row": "Ranged",
+    "name": "dol blathanna archer",
+    "deck": "scoia'tael",
+    "row": "ranged",
     "strength": 4,
     "locations": [
       {
-        "type": "Buy",
-        "territory": "Novigrad or Velen",
-        "location": "Passiflora or Circus camp near Carstenm",
-        "character": "Innkeeper or trader"
+        "type": "buy",
+        "territory": "novigrad or velen",
+        "location": "passiflora or circus camp near carstenm",
+        "character": "innkeeper or trader"
       }
     ]
   },
   {
-    "name": "Dol Blathanna Scout",
-    "deck": "Scoia'tael",
-    "row": "Agile",
+    "name": "dol blathanna scout",
+    "deck": "scoia'tael",
+    "row": "agile",
     "strength": 6,
     "locations": [
       {
-        "type": "Buy",
-        "territory": "Novigrad",
-        "location": "Golden Sturgeon",
-        "character": "Innkeeper"
+        "type": "buy",
+        "territory": "novigrad",
+        "location": "golden sturgeon",
+        "character": "innkeeper"
       },
-      { "type": "Random" },
-      { "type": "Random" },
+      { "type": "random" },
+      { "type": "random" },
       {
-        "type": "Buy",
-        "territory": "Velen",
-        "location": "Circus camp near Carsten",
-        "character": "Trader"
+        "type": "buy",
+        "territory": "velen",
+        "location": "circus camp near carsten",
+        "character": "trader"
       }
     ],
-    "notes": "Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+    "notes": "agile: can be placed in either the close combat or the ranged combat row. cannot be moved once placed."
   },
   {
-    "name": "Dwarven Skirmisher",
-    "deck": "Scoia'tael",
-    "row": "Close",
+    "name": "dwarven skirmisher",
+    "deck": "scoia'tael",
+    "row": "close",
     "strength": 3,
     "locations": [
-      { "type": "Random" },
-      { "type": "Random" },
+      { "type": "random" },
+      { "type": "random" },
       {
-        "type": "Buy",
-        "territory": "Novigrad",
-        "location": "The Alchemy Inn, Oxenfurt",
-        "character": "Stjepan"
+        "type": "buy",
+        "territory": "novigrad",
+        "location": "the alchemy inn, oxenfurt",
+        "character": "stjepan"
       }
     ]
   },
   {
-    "abilities": ["Hero"],
-    "name": "Eithné",
-    "deck": "Scoia'tael",
-    "row": "Ranged",
+    "abilities": ["hero"],
+    "name": "eithné",
+    "deck": "scoia'tael",
+    "row": "ranged",
     "strength": 10,
     "locations": [
       {
-        "type": "Quest",
-        "territory": "Novigrad",
-        "location": "Rosemary and Thyme",
-        "character": "Zoltan (quest Gwent: Old Pals)"
+        "type": "quest",
+        "territory": "novigrad",
+        "location": "rosemary and thyme",
+        "character": "zoltan (quest gwent: old pals)"
       }
     ]
   },
   {
-    "abilities": ["Muster"],
-    "name": "Elven Skirmisher",
-    "deck": "Scoia'tael",
-    "row": "Ranged",
+    "abilities": ["muster"],
+    "name": "elven skirmisher",
+    "deck": "scoia'tael",
+    "row": "ranged",
     "strength": 2,
     "locations": [
-      { "type": "Random" },
-      { "type": "Random" },
+      { "type": "random" },
+      { "type": "random" },
       {
-        "type": "Buy",
-        "territory": "Skellige",
-        "location": "Urialla Village, An Skellig",
-        "character": "Innkeeper"
+        "type": "buy",
+        "territory": "skellige",
+        "location": "urialla village, an skellig",
+        "character": "innkeeper"
       }
     ]
   },
   {
-    "name": "Filavandrel aen Fidhail",
-    "deck": "Scoia'tael",
-    "row": "Agile",
+    "name": "filavandrel aen fidhail",
+    "deck": "scoia'tael",
+    "row": "agile",
     "strength": 2,
-    "locations": [{ "type": "Random" }],
-    "notes": "Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+    "locations": [{ "type": "random" }],
+    "notes": "agile: can be placed in either the close combat or the ranged combat row. cannot be moved once placed."
   },
   {
-    "name": "Francesca Finabair: Daisy of the Valley",
-    "deck": "Scoia'tael",
-    "row": "Leader",
+    "name": "francesca finabair: daisy of the valley",
+    "deck": "scoia'tael",
+    "row": "leader",
     "locations": [
       {
-        "type": "Buy",
-        "territory": "Novigrad",
-        "location": "Cunny of the Goose",
-        "character": "Innkeeper"
+        "type": "buy",
+        "territory": "novigrad",
+        "location": "cunny of the goose",
+        "character": "innkeeper"
       }
     ],
-    "notes": "Daisy of the Valley: Draw an extra card at the beginning of the battle."
+    "notes": "daisy of the valley: draw an extra card at the beginning of the battle."
   },
   {
-    "name": "Francesca Findabair: Hope of the Aen Seidhe",
-    "deck": "Scoia'tael",
-    "row": "Leader",
+    "name": "francesca findabair: hope of the aen seidhe",
+    "deck": "scoia'tael",
+    "row": "leader",
     "locations": [
       {
-        "type": "Buy",
-        "territory": "Velen",
-        "location": "Upper Mill",
-        "character": "Dula kh'Amanni"
+        "type": "buy",
+        "territory": "velen",
+        "location": "upper mill",
+        "character": "dula kh'amanni"
       }
     ],
-    "notes": "Hope of the Aen Seidhe: Move agile units to whichever valid row maximizes their strength (don't move units already in optimal row)."
+    "notes": "hope of the aen seidhe: move agile units to whichever valid row maximizes their strength (don't move units already in optimal row)."
   },
   {
-    "name": "Francesca Findabair: Pureblood Elf",
-    "deck": "Scoia'tael",
-    "row": "Leader",
-    "locations": [{ "type": "Base deck" }],
-    "notes": "Pureblood Elf: Pick a Biting Frost card from your deck and play it instantly."
+    "name": "francesca findabair: pureblood elf",
+    "deck": "scoia'tael",
+    "row": "leader",
+    "locations": [{ "type": "base deck" }],
+    "notes": "pureblood elf: pick a biting frost card from your deck and play it instantly."
   },
   {
-    "name": "Francesca Findabair: Queen of Dol Blathanna",
-    "deck": "Scoia'tael",
-    "row": "Leader",
+    "name": "francesca findabair: queen of dol blathanna",
+    "deck": "scoia'tael",
+    "row": "leader",
     "locations": [
       {
-        "type": "Quest",
-        "territory": "Novigrad",
-        "location": "Passiflora",
-        "character": "Finneas (quest High Stakes)"
+        "type": "quest",
+        "territory": "novigrad",
+        "location": "passiflora",
+        "character": "finneas (quest high stakes)"
       }
     ],
-    "notes": "Queen of Dol Blathanna: Destroy your enemy's strongest Close Combat unit(s) if the combined strength of all his or her Close Combat units is 10 or more."
+    "notes": "queen of dol blathanna: destroy your enemy's strongest close combat unit(s) if the combined strength of all his or her close combat units is 10 or more."
   },
   {
-    "name": "Francesca Findabair: The Beautiful",
-    "deck": "Scoia'tael",
-    "row": "Leader",
+    "name": "francesca findabair: the beautiful",
+    "deck": "scoia'tael",
+    "row": "leader",
     "locations": [
       {
-        "type": "Quest",
-        "location": "Won after completing Gwent: Big City Players"
+        "type": "quest",
+        "location": "won after completing gwent: big city players"
       }
     ],
-    "notes": "The Beautiful: Doubles the strength of all your Ranged Combat units (unless a Commander's Horn is also present on that row)."
+    "notes": "the beautiful: doubles the strength of all your ranged combat units (unless a commander's horn is also present on that row)."
   },
   {
-    "abilities": ["Medic"],
-    "name": "Havekar Healer",
-    "deck": "Scoia'tael",
-    "row": "Ranged",
+    "abilities": ["medic"],
+    "name": "havekar healer",
+    "deck": "scoia'tael",
+    "row": "ranged",
     "strength": 0,
     "locations": [
-      { "type": "Random" },
+      { "type": "random" },
       {
-        "type": "Buy",
-        "territory": "Novigrad",
-        "location": "Cunny of the Goose",
-        "character": "Innkeep"
+        "type": "buy",
+        "territory": "novigrad",
+        "location": "cunny of the goose",
+        "character": "innkeep"
       },
       {
-        "type": "Buy",
-        "territory": "Novigrad",
-        "location": "Kingfisher Inn",
-        "character": "Innkeeper"
+        "type": "buy",
+        "territory": "novigrad",
+        "location": "kingfisher inn",
+        "character": "innkeeper"
       },
       {
-        "type": "Buy",
-        "territory": "Velen",
-        "location": "Circus camp near Carsten",
-        "character": "Trader"
+        "type": "buy",
+        "territory": "velen",
+        "location": "circus camp near carsten",
+        "character": "trader"
       }
     ]
   },
   {
-    "abilities": ["Muster"],
-    "name": "Havekar Smuggler",
-    "deck": "Scoia'tael",
-    "row": "Close",
+    "abilities": ["muster"],
+    "name": "havekar smuggler",
+    "deck": "scoia'tael",
+    "row": "close",
     "strength": 5,
     "locations": [
-      { "type": "Random" },
+      { "type": "random" },
       {
-        "type": "Buy",
-        "territory": "Novigrad",
-        "location": "Kingfisher Inn",
-        "character": "Innkeeper"
+        "type": "buy",
+        "territory": "novigrad",
+        "location": "kingfisher inn",
+        "character": "innkeeper"
       },
       {
-        "type": "Buy",
-        "territory": "Novigrad",
-        "location": "Seven Cats Inn",
-        "character": "Innkeeper"
+        "type": "buy",
+        "territory": "novigrad",
+        "location": "seven cats inn",
+        "character": "innkeeper"
       },
       {
-        "type": "Buy",
-        "territory": "Velen",
-        "location": "Circus camp near Carsten",
-        "character": "Trader"
+        "type": "buy",
+        "territory": "velen",
+        "location": "circus camp near carsten",
+        "character": "trader"
       }
     ]
   },
   {
-    "name": "Ida Emean aep Sivney",
-    "deck": "Scoia'tael",
-    "row": "Ranged",
+    "name": "ida emean aep sivney",
+    "deck": "scoia'tael",
+    "row": "ranged",
     "strength": 6,
-    "locations": [{ "type": "Random" }]
+    "locations": [{ "type": "random" }]
   },
   {
-    "abilities": ["Hero"],
-    "name": "Iorveth",
-    "deck": "Scoia'tael",
-    "row": "Ranged",
+    "abilities": ["hero"],
+    "name": "iorveth",
+    "deck": "scoia'tael",
+    "row": "ranged",
     "strength": 10,
     "locations": [
-      { "type": "Quest", "location": "Won after completing Shock Therapy" }
+      { "type": "quest", "location": "won after completing shock therapy" }
     ]
   },
   {
-    "abilities": ["Hero", "Morale Boost"],
-    "name": "Isengrim Faolitiarna",
-    "deck": "Scoia'tael",
-    "row": "Close",
+    "abilities": ["hero", "morale boost"],
+    "name": "isengrim faolitiarna",
+    "deck": "scoia'tael",
+    "row": "close",
     "strength": 10,
     "locations": [
       {
-        "type": "Quest",
-        "territory": "Novigrad",
-        "location": "Zed's house (quest A Dangerous Game)"
+        "type": "quest",
+        "territory": "novigrad",
+        "location": "zed's house (quest a dangerous game)"
       }
     ]
   },
   {
-    "abilities": ["Muster"],
-    "name": "Mahakaman Defender",
-    "deck": "Scoia'tael",
-    "row": "Close",
+    "abilities": ["muster"],
+    "name": "mahakaman defender",
+    "deck": "scoia'tael",
+    "row": "close",
     "strength": 5,
     "locations": [
       {
-        "type": "Buy",
-        "territory": "Velen",
-        "location": "Circus camp near Carsten",
-        "character": "Trader"
+        "type": "buy",
+        "territory": "velen",
+        "location": "circus camp near carsten",
+        "character": "trader"
       },
       {
-        "type": "Buy",
-        "territory": "Novigrad",
-        "location": "Passiflora",
-        "character": "Marquise Serenity"
+        "type": "buy",
+        "territory": "novigrad",
+        "location": "passiflora",
+        "character": "marquise serenity"
       },
       {
-        "type": "Buy",
-        "territory": "Novigrad",
-        "location": "The Alchemy Inn, Oxenfurt",
-        "character": "Stjepan"
+        "type": "buy",
+        "territory": "novigrad",
+        "location": "the alchemy inn, oxenfurt",
+        "character": "stjepan"
       },
       {
-        "type": "Buy",
-        "territory": "Novigrad",
-        "location": "Golden Sturgeon",
-        "character": "Innkeeper"
+        "type": "buy",
+        "territory": "novigrad",
+        "location": "golden sturgeon",
+        "character": "innkeeper"
       },
       {
-        "type": "Buy",
-        "territory": "Novigrad",
-        "location": "Seven Cats Inn",
-        "character": "Innkeeper"
+        "type": "buy",
+        "territory": "novigrad",
+        "location": "seven cats inn",
+        "character": "innkeeper"
       },
       {
-        "type": "Buy",
-        "territory": "Novigrad",
-        "location": "Kingfisher Inn",
-        "character": "Innkeeper"
+        "type": "buy",
+        "territory": "novigrad",
+        "location": "kingfisher inn",
+        "character": "innkeeper"
       }
     ]
   },
   {
-    "abilities": ["Morale Boost"],
-    "name": "Milva",
-    "deck": "Scoia'tael",
-    "row": "Ranged",
+    "abilities": ["morale boost"],
+    "name": "milva",
+    "deck": "scoia'tael",
+    "row": "ranged",
     "strength": 10,
     "locations": [
       {
-        "type": "Quest",
-        "territory": "Novigrad",
-        "location": "Vegelbud Estate",
-        "character": "quest A Matter of Life and Death"
+        "type": "quest",
+        "territory": "novigrad",
+        "location": "vegelbud estate",
+        "character": "quest a matter of life and death"
       }
     ]
   },
   {
-    "name": "Riordain",
-    "deck": "Scoia'tael",
-    "row": "Ranged",
+    "name": "riordain",
+    "deck": "scoia'tael",
+    "row": "ranged",
     "strength": 1,
-    "locations": [{ "type": "Random" }]
+    "locations": [{ "type": "random" }]
   },
   {
-    "abilities": ["Hero"],
-    "name": "Saesenthessis",
-    "deck": "Scoia'tael",
-    "row": "Ranged",
+    "abilities": ["hero"],
+    "name": "saesenthessis",
+    "deck": "scoia'tael",
+    "row": "ranged",
     "strength": 10,
     "locations": [
       {
-        "type": "Quest",
-        "territory": "Novigrad",
-        "location": "Temerian Resistance Camp",
-        "character": "Vernon Roche (quest Gwent: Old Pals)"
+        "type": "quest",
+        "territory": "novigrad",
+        "location": "temerian resistance camp",
+        "character": "vernon roche (quest gwent: old pals)"
       }
     ]
   },
   {
-    "name": "Schirrú",
-    "deck": "Scoia'tael",
-    "row": "Siege",
+    "name": "schirrú",
+    "deck": "scoia'tael",
+    "row": "siege",
     "strength": 8,
     "locations": [
       {
-        "type": "Quest",
-        "territory": "Velen",
-        "location": "Circus camp near Carsten",
-        "character": "Merchant"
+        "type": "quest",
+        "territory": "velen",
+        "location": "circus camp near carsten",
+        "character": "merchant"
       }
     ],
-    "effect": "Scorch"
+    "effect": "scorch"
   },
   {
-    "abilities": ["Hero"],
-    "name": "Toruviel",
-    "deck": "Scoia'tael",
-    "row": "Ranged",
+    "abilities": ["hero"],
+    "name": "toruviel",
+    "deck": "scoia'tael",
+    "row": "ranged",
     "strength": 10,
     "locations": [
-      { "type": "Quest", "location": "Won after completing Shock Therapy" }
+      { "type": "quest", "location": "won after completing shock therapy" }
     ]
   },
   {
-    "name": "Vrihedd Brigade Recruit",
-    "deck": "Scoia'tael",
-    "row": "Agile",
+    "name": "vrihedd brigade recruit",
+    "deck": "scoia'tael",
+    "row": "agile",
     "strength": 10,
     "locations": [
-      { "type": "Random" },
+      { "type": "random" },
       {
-        "type": "Buy",
-        "territory": "Novigrad",
-        "location": "The Alchemy Inn, Oxenfurt",
-        "character": "Stjepan"
+        "type": "buy",
+        "territory": "novigrad",
+        "location": "the alchemy inn, oxenfurt",
+        "character": "stjepan"
       },
       {
-        "type": "Buy",
-        "territory": "Novigrad",
-        "location": "Kingfisher Inn",
-        "character": "Innkeeper"
+        "type": "buy",
+        "territory": "novigrad",
+        "location": "kingfisher inn",
+        "character": "innkeeper"
       }
     ],
-    "notes": "Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+    "notes": "agile: can be placed in either the close combat or the ranged combat row. cannot be moved once placed."
   },
   {
-    "name": "Yeavinn",
-    "deck": "Scoia'tael",
-    "row": "Agile",
+    "name": "yeavinn",
+    "deck": "scoia'tael",
+    "row": "agile",
     "strength": 10,
     "locations": [
       {
-        "type": "Quest",
-        "territory": "Skellige",
-        "location": "Kaer Trolde Harbor",
-        "character": "Sjusta the Tailor"
+        "type": "quest",
+        "territory": "skellige",
+        "location": "kaer trolde harbor",
+        "character": "sjusta the tailor"
       }
     ],
-    "notes": "Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+    "notes": "agile: can be placed in either the close combat or the ranged combat row. cannot be moved once placed."
   }
 ]

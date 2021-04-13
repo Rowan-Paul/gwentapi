@@ -1,314 +1,314 @@
 [
   {
-    "name": "Berserker",
-    "deck": "Skellige",
-    "row": "Close",
+    "name": "berserker",
+    "deck": "skellige",
+    "row": "close",
     "strength": 4,
-    "locations": [{ "type": "Base deck" }],
-    "effect": "Berserker"
+    "locations": [{ "type": "base deck" }],
+    "effect": "berserker"
   },
   {
-    "name": "Birna Bran",
-    "deck": "Skellige",
-    "row": "Close",
+    "name": "birna bran",
+    "deck": "skellige",
+    "row": "close",
     "strength": 2,
-    "locations": [{ "type": "Base deck" }],
-    "abilities": ["Medic"]
+    "locations": [{ "type": "base deck" }],
+    "abilities": ["medic"]
   },
   {
-    "name": "Blueboy Lugos",
-    "deck": "Skellige",
-    "row": "Close",
+    "name": "blueboy lugos",
+    "deck": "skellige",
+    "row": "close",
     "strength": 6,
-    "locations": [{ "type": "Base deck" }]
+    "locations": [{ "type": "base deck" }]
   },
   {
-    "name": "Cerys",
-    "deck": "Skellige",
-    "row": "Close",
+    "name": "cerys",
+    "deck": "skellige",
+    "row": "close",
     "strength": 4,
     "locations": [
       {
-        "type": "Win",
-        "territory": "Toussaint",
-        "location": "Barrel and Bung Inn, Flovile",
-        "character": "Innkeep"
+        "type": "win",
+        "territory": "toussaint",
+        "location": "barrel and bung inn, flovile",
+        "character": "innkeep"
       }
     ],
-    "abilities": ["Hero"]
+    "abilities": ["hero"]
   },
   {
-    "name": "Clan Brokvar Archer",
-    "deck": "Skellige",
-    "row": "Ranged",
+    "name": "clan brokvar archer",
+    "deck": "skellige",
+    "row": "ranged",
     "strength": 6,
     "locations": [
-      { "type": "Base deck" },
-      { "type": "Base deck" },
+      { "type": "base deck" },
+      { "type": "base deck" },
       {
-        "type": "Win",
-        "territory": "Toussaint",
-        "location": "Castel Ravello Vineyard",
-        "character": "Herbalist"
+        "type": "win",
+        "territory": "toussaint",
+        "location": "castel ravello vineyard",
+        "character": "herbalist"
       }
     ]
   },
   {
-    "name": "Clan Dimun Pirate",
-    "deck": "Skellige",
-    "row": "Ranged",
+    "name": "clan dimun pirate",
+    "deck": "skellige",
+    "row": "ranged",
     "strength": 6,
     "locations": [
       {
-        "type": "Win",
-        "territory": "Toussaint",
-        "location": "Shop next to Grandmaster Smith shop (east of the Pheasantry)",
-        "character": "Merchant"
+        "type": "win",
+        "territory": "toussaint",
+        "location": "shop next to grandmaster smith shop (east of the pheasantry)",
+        "character": "merchant"
       }
     ],
-    "effect": "Scorch"
+    "effect": "scorch"
   },
   {
-    "name": "Clan Drummond Shield Maiden",
-    "deck": "Skellige",
-    "row": "Close",
+    "name": "clan drummond shield maiden",
+    "deck": "skellige",
+    "row": "close",
     "strength": 4,
     "locations": [
-      { "type": "Base deck" },
+      { "type": "base deck" },
       {
-        "type": "Win",
-        "territory": "Toussaint",
-        "location": "The Cockatrice Inn",
-        "character": "Innkeep"
+        "type": "win",
+        "territory": "toussaint",
+        "location": "the cockatrice inn",
+        "character": "innkeep"
       },
       {
-        "type": "Win",
-        "territory": "Toussaint",
-        "location": "Francollarts",
-        "character": "Armorer"
+        "type": "win",
+        "territory": "toussaint",
+        "location": "francollarts",
+        "character": "armorer"
       }
     ],
-    "abilities": ["Tight Bond"]
+    "abilities": ["tight bond"]
   },
   {
-    "name": "Clan Heymaey Skald",
-    "deck": "Skellige",
-    "row": "Close",
+    "name": "clan heymaey skald",
+    "deck": "skellige",
+    "row": "close",
     "strength": 4,
-    "locations": [{ "type": "Base deck" }]
+    "locations": [{ "type": "base deck" }]
   },
   {
-    "name": "Cerys",
-    "deck": "Skellige",
-    "row": "Close",
+    "name": "cerys",
+    "deck": "skellige",
+    "row": "close",
     "strength": 4,
-    "locations": [{ "type": "Base deck" }]
+    "locations": [{ "type": "base deck" }]
   },
   {
-    "name": "Clan an Craite Warrior",
-    "deck": "Skellige",
-    "row": "Close",
+    "name": "clan an craite warrior",
+    "deck": "skellige",
+    "row": "close",
     "strength": 6,
-    "locations": [{ "type": "Base deck" }],
-    "abilities": ["Tight Bond"]
+    "locations": [{ "type": "base deck" }],
+    "abilities": ["tight bond"]
   },
   {
-    "name": "Crach an Craite",
-    "deck": "Skellige",
-    "locations": [{ "type": "Base deck" }],
-    "notes": "Shuffle all cards from each player's graveyard back into their decks."
+    "name": "crach an craite",
+    "deck": "skellige",
+    "locations": [{ "type": "base deck" }],
+    "notes": "shuffle all cards from each player's graveyard back into their decks."
   },
   {
-    "name": "Donar an Hindar",
-    "deck": "Skellige",
-    "row": "Close",
+    "name": "donar an hindar",
+    "deck": "skellige",
+    "row": "close",
     "strength": 4,
-    "locations": [{ "type": "Base deck" }]
+    "locations": [{ "type": "base deck" }]
   },
   {
-    "name": "Draig Bon-Dhu",
-    "deck": "Skellige",
-    "row": "Siege",
+    "name": "draig bon-dhu",
+    "deck": "skellige",
+    "row": "siege",
     "strength": 2,
     "locations": [
       {
-        "type": "Win",
-        "territory": "Toussaint",
-        "location": "Pheasantry",
-        "character": "Innkeep"
+        "type": "win",
+        "territory": "toussaint",
+        "location": "pheasantry",
+        "character": "innkeep"
       }
     ],
-    "effect": "Commander's Horn"
+    "effect": "commander's horn"
   },
   {
-    "name": "Ermion",
-    "deck": "Skellige",
-    "row": "Ranged",
+    "name": "ermion",
+    "deck": "skellige",
+    "row": "ranged",
     "strength": 8,
     "locations": [
       {
-        "type": "Win",
-        "territory": "Toussaint",
-        "location": "The Scarlet Cardinal Inn, Francollarts",
-        "character": "Innkeepress"
+        "type": "win",
+        "territory": "toussaint",
+        "location": "the scarlet cardinal inn, francollarts",
+        "character": "innkeepress"
       }
     ],
-    "abilities": ["Hero"],
-    "effect": "Mardroeme"
+    "abilities": ["hero"],
+    "effect": "mardroeme"
   },
   {
-    "name": "Hjalmar",
-    "deck": "Skellige",
-    "row": "Ranged",
+    "name": "hjalmar",
+    "deck": "skellige",
+    "row": "ranged",
     "strength": 10,
-    "locations": [{ "type": "Base deck" }],
-    "abilities": ["Hero"]
+    "locations": [{ "type": "base deck" }],
+    "abilities": ["hero"]
   },
   {
-    "name": "Holger Blackhand",
-    "deck": "Skellige",
-    "row": "Siege",
+    "name": "holger blackhand",
+    "deck": "skellige",
+    "row": "siege",
     "strength": 4,
-    "locations": [{ "type": "Base deck" }]
+    "locations": [{ "type": "base deck" }]
   },
   {
-    "name": "Kambi",
-    "deck": "Skellige",
-    "row": "Close",
+    "name": "kambi",
+    "deck": "skellige",
+    "row": "close",
     "strength": 0,
     "locations": [
       {
-        "type": "Win",
-        "territory": "Toussaint",
-        "location": "Beauclair",
-        "character": "Armorer"
+        "type": "win",
+        "territory": "toussaint",
+        "location": "beauclair",
+        "character": "armorer"
       }
     ],
-    "notes": "When this card is removed from the battlefield, it summons a powerful new Unit Card to take its place."
+    "notes": "when this card is removed from the battlefield, it summons a powerful new unit card to take its place."
   },
   {
-    "name": "King Bran",
-    "deck": "Skellige",
+    "name": "king bran",
+    "deck": "skellige",
     "locations": [
       {
-        "type": "Quest",
-        "territory": "Toussaint",
-        "location": "The Pheasantry, Hauteville",
-        "character": "Ducal Camerlengo (quest: Gwent: Turn, Turn, Tournament)"
+        "type": "quest",
+        "territory": "toussaint",
+        "location": "the pheasantry, hauteville",
+        "character": "ducal camerlengo (quest: gwent: turn, turn, tournament)"
       }
     ],
-    "notes": "Units only lose half their Strength in bad weather conditions."
+    "notes": "units only lose half their strength in bad weather conditions."
   },
   {
-    "name": "Light Longship",
-    "deck": "Skellige",
-    "row": "Ranged",
+    "name": "light longship",
+    "deck": "skellige",
+    "row": "ranged",
     "strength": 4,
     "locations": [
-      { "type": "Base deck" },
-      { "type": "Base deck" },
+      { "type": "base deck" },
+      { "type": "base deck" },
       {
-        "type": "Win",
-        "territory": "Toussaint",
-        "location": "Alchemy shop north of The Pheasantry",
-        "character": "Perfumery merchant"
+        "type": "win",
+        "territory": "toussaint",
+        "location": "alchemy shop north of the pheasantry",
+        "character": "perfumery merchant"
       }
     ],
-    "abilities": ["Muster"]
+    "abilities": ["muster"]
   },
   {
-    "name": "Madman Lugos",
-    "deck": "Skellige",
-    "row": "Close",
+    "name": "madman lugos",
+    "deck": "skellige",
+    "row": "close",
     "strength": 6,
-    "locations": [{ "type": "Base deck" }]
+    "locations": [{ "type": "base deck" }]
   },
   {
-    "name": "Mardroeme",
-    "deck": "Skellige",
-    "row": "Close",
+    "name": "mardroeme",
+    "deck": "skellige",
+    "row": "close",
     "strength": 0,
     "locations": [
-      { "type": "Base deck" },
+      { "type": "base deck" },
       {
-        "type": "Win",
-        "territory": "Toussaint",
-        "location": "East of Grandmaster Smith in Beauclair",
-        "character": "Herbalist"
+        "type": "win",
+        "territory": "toussaint",
+        "location": "east of grandmaster smith in beauclair",
+        "character": "herbalist"
       },
       {
-        "type": "Win",
-        "territory": "Toussaint",
-        "location": "The Belles of Beauclair inkeep, San Sebastian",
-        "character": "Madame"
+        "type": "win",
+        "territory": "toussaint",
+        "location": "the belles of beauclair inkeep, san sebastian",
+        "character": "madame"
       }
     ]
   },
   {
-    "name": "Kambi",
-    "deck": "Skellige",
-    "row": "Agile",
+    "name": "kambi",
+    "deck": "skellige",
+    "row": "agile",
     "strength": 12,
     "locations": [
       {
-        "type": "Win",
-        "territory": "Toussaint",
-        "location": "Adder and Jewels Winery",
-        "character": "Innkeep"
+        "type": "win",
+        "territory": "toussaint",
+        "location": "adder and jewels winery",
+        "character": "innkeep"
       }
     ],
-    "abilities": ["Morale Boost"],
-    "notes": "Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed"
+    "abilities": ["morale boost"],
+    "notes": "agile: can be placed in either the close combat or the ranged combat row. cannot be moved once placed"
   },
   {
-    "name": "Svanrige",
-    "deck": "Skellige",
-    "row": "Close",
+    "name": "svanrige",
+    "deck": "skellige",
+    "row": "close",
     "strength": 4,
-    "locations": [{ "type": "Base deck" }]
+    "locations": [{ "type": "base deck" }]
   },
   {
-    "name": "Udalryk",
-    "deck": "Skellige",
-    "row": "Close",
+    "name": "udalryk",
+    "deck": "skellige",
+    "row": "close",
     "strength": 4,
-    "locations": [{ "type": "Base deck" }]
+    "locations": [{ "type": "base deck" }]
   },
   {
-    "name": "War Longship",
-    "deck": "Skellige",
-    "row": "Siege",
+    "name": "war longship",
+    "deck": "skellige",
+    "row": "siege",
     "strength": 6,
     "locations": [
-      { "type": "Base deck" },
-      { "type": "Base deck" },
+      { "type": "base deck" },
+      { "type": "base deck" },
       {
-        "type": "Win",
-        "territory": "Toussaint",
-        "location": "Tourney Grounds",
-        "character": "Innkeep"
+        "type": "win",
+        "territory": "toussaint",
+        "location": "tourney grounds",
+        "character": "innkeep"
       }
     ],
-    "abilities": ["Tight Bond"]
+    "abilities": ["tight bond"]
   },
   {
-    "name": "Young Berserker",
-    "deck": "Skellige",
-    "row": "Ranged",
+    "name": "young berserker",
+    "deck": "skellige",
+    "row": "ranged",
     "strength": 2,
     "locations": [
-      { "type": "Base deck" },
+      { "type": "base deck" },
       {
-        "type": "Win",
-        "territory": "Toussaint",
-        "location": "Tourney Grounds",
-        "character": "Blacksmith"
+        "type": "win",
+        "territory": "toussaint",
+        "location": "tourney grounds",
+        "character": "blacksmith"
       },
       {
-        "type": "Win",
-        "territory": "Toussaint",
-        "location": "Tailor's Workshop, Beauclair Market",
-        "character": "Pierre"
+        "type": "win",
+        "territory": "toussaint",
+        "location": "tailor's workshop, beauclair market",
+        "character": "pierre"
       }
     ]
   }

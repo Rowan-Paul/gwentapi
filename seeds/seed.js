@@ -48,11 +48,11 @@ mongoose
   })
   .then(() => {
     console.log('Inserted skellige cards')
-    return db.close()
   })
   .catch((err) => {
     console.log(err)
   })
   .finally(() => {
+    db.close()
     console.log('Database closed')
   })
