@@ -15,6 +15,46 @@ router.get('/', (req, res) => {
   })
 })
 
+router.get('/card?*', (req, res) => {
+  const { deck } = req.query
+  const { row } = req.query
+  const { strength } = req.query
+  const { abilities } = req.query
+  const { effect } = req.query
+  const { territory } = req.query
+
+  const query = {}
+
+  if (deck) {
+    query.deck = deck
+  }
+  if (row) {
+    query.row = row
+  }
+  if (strength) {
+    query.strength = strength
+  }
+  if (abilities) {
+    query.abilities = abilities
+  }
+  if (effect) {
+    query.effect = effect
+  }
+
+  Cards.find(query, { __v: 0 }).exec(function (err, response) {
+    if (err) {
+      return res.status(500)
+    }
+
+    const cards = {
+      amount: response.length,
+      cards: response,
+    }
+
+    res.status(200).send(cards)
+  })
+})
+
 router.get('/decks', (req, res) => {
   const decks = {
     decks: [
