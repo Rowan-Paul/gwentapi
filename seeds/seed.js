@@ -20,25 +20,39 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => {
-    return seedCards()
+    return Cards.deleteMany()
   })
   .then(() => {
-    console.log(`Finished seeding`)
+    console.log('Deleted cards')
+    return Cards.insertMany(northernRealms)
+  })
+  .then(() => {
+    console.log('Inserted Northern Realms cards')
+    return Cards.insertMany(monsters)
+  })
+  .then(() => {
+    console.log('Inserted Monsters cards')
+    return Cards.insertMany(nilfgaard)
+  })
+  .then(() => {
+    console.log('Inserted Nilfgaard cards')
+    return Cards.insertMany(scoiatael)
+  })
+  .then(() => {
+    console.log('Inserted Scoiatael cards')
+    return Cards.insertMany(neutral)
+  })
+  .then(() => {
+    console.log('Inserted skellige cards')
+    return Cards.insertMany(skellige)
+  })
+  .then(() => {
+    console.log('Inserted skellige cards')
+    return db.close()
   })
   .catch((err) => {
     console.log(err)
   })
   .finally(() => {
-    db.close()
+    console.log('Database closed')
   })
-
-async function seedCards() {
-  await Cards.deleteMany()
-
-  await Cards.insertMany(northernRealms)
-  await Cards.insertMany(monsters)
-  await Cards.insertMany(nilfgaard)
-  await Cards.insertMany(scoiatael)
-  await Cards.insertMany(neutral)
-  await Cards.insertMany(skellige)
-}
