@@ -21,7 +21,6 @@ router.get('/card?*', (req, res) => {
   const { strength } = req.query
   const { abilities } = req.query
   const { effect } = req.query
-  const { territory } = req.query
 
   const query = {}
 
