@@ -6,9 +6,14 @@ const router = express.Router()
 const Cards = require('../../../models/Cards')
 
 router.get('/', (req, res) => {
-  Cards.find({}, { __v: 0 }, (err, cards) => {
+  Cards.find({}, { __v: 0 }, (err, response) => {
     if (err) {
       return res.status(500)
+    }
+
+    const cards = {
+      amount: response.length,
+      cards: response,
     }
 
     return res.status(200).send(cards)

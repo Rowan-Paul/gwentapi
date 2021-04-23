@@ -3,6 +3,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
+const cors = require('cors')
 
 const app = express()
 const port = process.env.PORT || '3000'
@@ -14,6 +15,7 @@ const cardsRouter = require('./routes/api/v1/cards')
 // MIDDLEWARE
 app.use(bodyParser.json())
 app.use(express.json())
+app.use(cors())
 
 // ROUTES MIDDLEWARE
 app.use('/api/v1/cards', cardsRouter)
