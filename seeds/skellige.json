@@ -98,13 +98,6 @@
     "locations": [{ "type": "base deck" }]
   },
   {
-    "name": "cerys",
-    "deck": "skellige",
-    "row": "close",
-    "strength": 4,
-    "locations": [{ "type": "base deck" }]
-  },
-  {
     "name": "clan an craite warrior",
     "deck": "skellige",
     "row": "close",
@@ -170,21 +163,6 @@
     "row": "siege",
     "strength": 4,
     "locations": [{ "type": "base deck" }]
-  },
-  {
-    "name": "kambi",
-    "deck": "skellige",
-    "row": "close",
-    "strength": 0,
-    "locations": [
-      {
-        "type": "win",
-        "territory": "toussaint",
-        "location": "beauclair",
-        "character": "armorer"
-      }
-    ],
-    "notes": "when this card is removed from the battlefield, it summons a powerful new unit card to take its place."
   },
   {
     "name": "king bran",

@@ -130,13 +130,6 @@
     ]
   },
   {
-    "name": "crone: brewess",
-    "deck": "monsters",
-    "row": "ranged",
-    "strength": 2,
-    "locations": [{ "type": "random" }]
-  },
-  {
     "name": "eredin bréacc glas: the treacherous",
     "deck": "monsters",
     "row": "leader",
