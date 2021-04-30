@@ -21,9 +21,7 @@ router.get('/', (req, res) => {
 })
 
 function formatArray(input) {
-  return decodeURI(input)
-    .substring(1, decodeURI(input).length - 1)
-    .split(',')
+  return decodeURI(input).split(',')
 }
 
 router.get('/card?*', (req, res) => {
@@ -36,19 +34,19 @@ router.get('/card?*', (req, res) => {
   const query = {}
 
   if (deck) {
-    query.deck = deck
+    query.deck = { $in: formatArray(deck) }
   }
   if (row) {
-    query.row = row
+    query.row = { $in: formatArray(row) }
   }
   if (strength) {
-    query.strength = strength
+    query.strength = { $in: formatArray(strength) }
   }
   if (abilities) {
     query.abilities = { $in: formatArray(abilities) }
   }
   if (effect) {
-    query.effect = effect
+    query.effect = { $in: formatArray(effect) }
   }
 
   Cards.find(query, { __v: 0 }).exec(function (err, response) {
