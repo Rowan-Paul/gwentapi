@@ -14,6 +14,7 @@ const dbName = 'gwentcards'
 const cardsRouter = require('./routes/api/v1/cards')
 
 // MIDDLEWARE
+app.use(express.static(path.join(__dirname, '../GWENTcards/build')))
 app.use(bodyParser.json())
 app.use(express.json())
 app.use(cors())
