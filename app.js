@@ -12,6 +12,7 @@ const dbName = 'gwentcards'
 
 // IMPORT ROUTES
 const cardsRouter = require('./routes/api/v1/cards')
+const authRouter = require('./routes/api/v1/auth')
 
 // MIDDLEWARE
 app.use(express.static(path.join(__dirname, '../GWENTcards/build')))
@@ -22,6 +23,7 @@ app.use(express.static('.'))
 
 // ROUTES MIDDLEWARE
 app.use('/api/v1/cards', cardsRouter)
+app.use('/api/v1/auth', authRouter)
 
 // SERVE SITE
 app.get('/*', function (req, res) {

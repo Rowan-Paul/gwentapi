@@ -23,7 +23,7 @@ const LocationsSchema = new mongoose.Schema(
   { _id: false }
 )
 
-const CardsSchema = new mongoose.Schema({
+const CardSchema = new mongoose.Schema({
   name: {
     type: String,
     required: true,
@@ -86,4 +86,4 @@ const CardsSchema = new mongoose.Schema({
   },
 })
 
-module.exports = mongoose.model('Cards', CardsSchema)
+module.exports = mongoose.model('Card', CardSchema)
