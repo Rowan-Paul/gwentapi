@@ -5,7 +5,6 @@ const router = express.Router()
 const jwt = require('jsonwebtoken')
 
 const User = require('../../../models/User')
-
 const secret = process.env.SECRET || 'super secret'
 
 // Create an account
@@ -102,11 +101,17 @@ router.post('/signin', (req, res) => {
         username: user.username,
       }
 
-      const token = jwt.sign(payload, secret, { expiresIn: 36000 })
+      const token = jwt.sign(payload, secret, { expiresIn: '3m' })
 
       if (!token) {
         return res.status(500).send("Error: Can't sign token")
       } else {
+        res.cookie('token', token, {
+          httpOnly: true,
+          secure: true,
+          maxAge: 7889238000,
+          //   secure: true,
+        })
         return res.status(200).send({ token: token })
       }
     }
