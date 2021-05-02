@@ -27,19 +27,20 @@ app.use(cookieParser())
 
 // ROUTES MIDDLEWARE
 app.use('/api/v1/auth', authRouter)
+app.use('/api/v1/cards', cardsRouter)
 
-app.use((req, res) => {
+app.use((req, res, next) => {
   const token = req.cookies.token
 
   try {
     // this only verifies the token,
     // not the user
     jwt.verify(token, secret)
+    next()
   } catch (err) {
     res.status(401).send(err)
   }
 })
-app.use('/api/v1/cards', cardsRouter)
 
 // SERVE SITE
 app.get('/*', function (req, res) {

@@ -101,7 +101,9 @@ router.post('/signin', (req, res) => {
         username: user.username,
       }
 
-      const token = jwt.sign(payload, secret, { expiresIn: '3m' })
+      const threeMonths = 60 * 60 * 24 * 90
+
+      const token = jwt.sign(payload, secret, { expiresIn: threeMonths })
 
       if (!token) {
         return res.status(500).send("Error: Can't sign token")
@@ -109,7 +111,8 @@ router.post('/signin', (req, res) => {
         res.cookie('token', token, {
           httpOnly: true,
           secure: true,
-          maxAge: 7889238000,
+          maxAge: threeMonths,
+          sameSite: 'Strict',
           //   secure: true,
         })
         return res.status(200).send({ token: token })
