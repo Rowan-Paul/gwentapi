@@ -2,8 +2,11 @@
 
 const express = require('express')
 const router = express.Router()
+const jwt = require('jsonwebtoken')
 
 const User = require('../../../models/User')
+
+const secret = process.env.SECRET || 'super secret'
 
 // Create an account
 router.post('/signup', (req, res) => {
@@ -30,7 +33,7 @@ router.post('/signup', (req, res) => {
   // 2. Save
   User.find(
     {
-      $or: [{ email: email, username: username }],
+      $or: [{ email: email }, { username: username }],
     },
     (err, previousUsers) => {
       if (err) {
@@ -59,21 +62,24 @@ router.post('/signup', (req, res) => {
 router.post('/signin', (req, res) => {
   const { body } = req
   const { password } = body
+  const { username } = body
   let { email } = body
 
-  if (!email) {
-    return res.status(401).send('Error: Email cannot be blank.')
+  if (!email && !username) {
+    return res.status(401).send('Error: Fill in your email or username')
   }
   if (!password) {
     return res.status(401).send('Error: Password cannot be blank.')
   }
 
-  email = email.toLowerCase()
-  email = email.trim()
+  if (email) {
+    email = email.toLowerCase()
+    email = email.trim()
+  }
 
   User.find(
     {
-      email: email,
+      $or: [{ email: email }, { username: username }],
     },
     (err, users) => {
       if (err) {
@@ -91,34 +97,18 @@ router.post('/signin', (req, res) => {
       }
 
       // Otherwise correct user
-      return res.sendStatus(200)
+      const payload = {
+        email: user.email,
+        username: user.username,
+      }
 
-      //   const userSession = new UserSession()
-      //   userSession.userId = user._id
+      const token = jwt.sign(payload, secret, { expiresIn: 36000 })
 
-      //   userSession.save((err, doc) => {
-      //     if (err) {
-      //       console.log(err)
-      //       return res.sendStatus(500)
-      //     }
-
-      //     let filteredUser = {
-      //       email: user.email,
-      //       firstName: user.firstName,
-      //       lastName: user.lastName,
-      //       isAdmin: user.isAdmin,
-      //     }
-
-      //     return res.status(201).send({
-      //       message: 'Signed in',
-      //       token: encryptor.encrypt({
-      //         random: doc.random,
-      //         id: doc._id,
-      //         timestamp: doc.timestamp,
-      //       }),
-      //       user: filteredUser,
-      //     })
-      //   })
+      if (!token) {
+        return res.status(500).send("Error: Can't sign token")
+      } else {
+        return res.status(200).send({ token: token })
+      }
     }
   )
 })
