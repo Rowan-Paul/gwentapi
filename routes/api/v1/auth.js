@@ -8,7 +8,7 @@ const User = require('../../../models/User')
 const secret = process.env.SECRET || 'super secret'
 
 // Create an account
-router.post('/signup', (req, res) => {
+router.post('/', (req, res) => {
   const { body } = req
   const { password } = body
   const { username } = body
@@ -58,7 +58,7 @@ router.post('/signup', (req, res) => {
 })
 
 // Signin to account
-router.post('/signin', (req, res) => {
+router.put('/', (req, res) => {
   const { body } = req
   const { password } = body
   const { username } = body
@@ -119,6 +119,12 @@ router.post('/signin', (req, res) => {
       }
     }
   )
+})
+
+// sign out
+router.delete('/', (req, res) => {
+  res.cookie('token', '', { maxAge: 0 })
+  return res.sendStatus(200)
 })
 
 module.exports = router
