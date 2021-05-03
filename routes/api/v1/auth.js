@@ -51,7 +51,23 @@ router.post('/', (req, res) => {
         if (err) {
           return res.sendStatus(500)
         }
-        return res.status(201).send('Signed up')
+        const payload = {
+          email: user.email,
+          username: user.username,
+        }
+
+        const threeMonths = 60 * 60 * 24 * 90
+
+        const token = jwt.sign(payload, secret, { expiresIn: threeMonths })
+
+        res.cookie('token', token, {
+          httpOnly: true,
+          secure: true,
+          maxAge: threeMonths,
+          sameSite: 'Strict',
+          //   secure: true,
+        })
+        return res.status(201).send({ token: token })
       })
     }
   )
@@ -132,10 +148,27 @@ router.get('/', (req, res) => {
   const token = req.cookies.token
 
   try {
-    // this only verifies the token,
-    // not the user
-    jwt.verify(token, secret)
-    return res.status(200).send({ token: token })
+    const decoded = jwt.verify(token, secret, { complete: true })
+
+    User.find(
+      {
+        email: decoded.payload.email,
+        username: decoded.payload.username,
+      },
+      (err, users) => {
+        if (err) {
+          throw 'Error: ' + error
+        }
+
+        if (users.length < 1) {
+          res.status(401).send('Error: user no longer exists')
+        } else {
+          return res.status(200).send({ token: token })
+        }
+      }
+    ).catch((err) => {
+      console.log(err)
+    })
   } catch (err) {
     res.status(401).send(err)
   }

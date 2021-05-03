@@ -33,10 +33,26 @@ app.use((req, res, next) => {
   const token = req.cookies.token
 
   try {
-    // this only verifies the token,
-    // not the user
-    jwt.verify(token, secret)
-    next()
+    const decoded = jwt.verify(token, secret, { complete: true })
+
+    User.find(
+      {
+        email: decoded.payload.email,
+        username: decoded.payload.username,
+      },
+      (err, users) => {
+        if (err) {
+          throw 'Error: ' + error
+        }
+
+        if (users.length < 1) {
+          res.status(401).send('Error: user no longer exists')
+        } else {
+          next()
+          return res.status(200).send({ token: token })
+        }
+      }
+    )
   } catch (err) {
     res.status(401).send(err)
   }
