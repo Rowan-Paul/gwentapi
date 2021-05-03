@@ -18,12 +18,20 @@ router.get('/', (req, res) => {
       return res.sendStatus(500)
     }
 
-    const cardsReponse = {
-      amount: response.cards.length,
-      cards: response.cards,
-    }
+    Card.find({ _id: { $in: response.cards } }, { __v: 0 }, (err, cards) => {
+      if (err) {
+        res.sendStatus(500)
+      }
 
-    res.status(200).send(cardsReponse)
+      console.log(cards)
+
+      const cardsReponse = {
+        amount: cards.length,
+        cards: cards,
+      }
+
+      res.status(200).send(cardsReponse)
+    })
   })
 })
 
