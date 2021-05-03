@@ -127,4 +127,18 @@ router.delete('/', (req, res) => {
   return res.sendStatus(200)
 })
 
+// verify
+router.get('/', (req, res) => {
+  const token = req.cookies.token
+
+  try {
+    // this only verifies the token,
+    // not the user
+    jwt.verify(token, secret)
+    return res.status(200).send({ token: token })
+  } catch (err) {
+    res.status(401).send(err)
+  }
+})
+
 module.exports = router
