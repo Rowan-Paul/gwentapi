@@ -13,9 +13,12 @@ const port = process.env.PORT || '3000'
 const dbName = 'gwentcards'
 const secret = process.env.SECRET || 'super secret'
 
+const User = require('./models/User')
+
 // IMPORT ROUTES
 const cardsRouter = require('./routes/api/v1/cards')
 const authRouter = require('./routes/api/v1/auth')
+const userCardsRouter = require('./routes/api/v1/userCards')
 
 // MIDDLEWARE
 app.use(express.static(path.join(__dirname, '../GWENTcards/build')))
@@ -49,7 +52,6 @@ app.use((req, res, next) => {
           res.status(401).send('Error: user no longer exists')
         } else {
           next()
-          return res.status(200).send({ token: token })
         }
       }
     )
@@ -57,6 +59,7 @@ app.use((req, res, next) => {
     res.status(401).send(err)
   }
 })
+app.use('/api/v1/users/cards', userCardsRouter)
 
 // SERVE SITE
 app.get('/*', function (req, res) {

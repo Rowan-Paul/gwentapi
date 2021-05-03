@@ -19,6 +19,10 @@ const UserSchema = new mongoose.Schema({
     default: Date.now(),
     required: true,
   },
+  cards: {
+    type: [],
+    required: false,
+  },
 })
 
 UserSchema.methods.generateHash = function (password) {
