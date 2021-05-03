@@ -3,10 +3,10 @@
 const express = require('express')
 const router = express.Router()
 
-const Cards = require('../../../models/Cards')
+const Card = require('../../../models/Card')
 
 router.get('/', (req, res) => {
-  Cards.find({}, { __v: 0 }, (err, response) => {
+  Card.find({}, { __v: 0 }, (err, response) => {
     if (err) {
       return res.status(500)
     }
@@ -49,7 +49,7 @@ router.get('/card?*', (req, res) => {
     query.effect = { $in: formatArray(effect) }
   }
 
-  Cards.find(query, { __v: 0 }).exec(function (err, response) {
+  Card.find(query, { __v: 0 }).exec(function (err, response) {
     if (err) {
       return res.status(500)
     }
@@ -62,6 +62,7 @@ router.get('/card?*', (req, res) => {
     res.status(200).send(cards)
   })
 })
+
 router.get('/decks', (req, res) => {
   const decks = {
     decks: [
@@ -79,7 +80,7 @@ router.get('/decks', (req, res) => {
 router.get('/decks/:deck', (req, res) => {
   const { deck } = req.params
 
-  Cards.find({ deck: deck }, { __v: 0 }, (err, cards) => {
+  Card.find({ deck: deck }, { __v: 0 }, (err, cards) => {
     if (err) {
       return res.status(500)
     }
@@ -105,7 +106,7 @@ router.get('/rows', (req, res) => {
 router.get('/rows/:row', (req, res) => {
   const { row } = req.params
 
-  Cards.find({ row: row }, { __v: 0 }, (err, cards) => {
+  Card.find({ row: row }, { __v: 0 }, (err, cards) => {
     if (err) {
       return res.status(500)
     }
@@ -126,7 +127,7 @@ router.get('/:card', (req, res) => {
   var ObjectId = require('mongoose').Types.ObjectId
   var objId = new ObjectId(card.length < 12 ? '123456789012' : card)
 
-  Cards.findOne(
+  Card.findOne(
     {
       $or: [{ _id: objId }, { name: card }],
     },
