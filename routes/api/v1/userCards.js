@@ -23,8 +23,6 @@ router.get('/', (req, res) => {
         res.sendStatus(500)
       }
 
-      console.log(cards)
-
       const cardsReponse = {
         amount: cards.length,
         cards: cards,
@@ -55,12 +53,12 @@ router.post('/', (req, res) => {
         res.sendStatus(500)
       }
 
-      const cards = {
-        amount: response.length,
-        cards: response,
+      const cardsResponse = {
+        amount: response.cards.length,
+        cards: response.cards,
       }
 
-      return res.status(200).send(cards)
+      res.status(200).send(cardsResponse)
     }
   )
 })
