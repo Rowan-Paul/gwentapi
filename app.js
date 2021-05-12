@@ -60,7 +60,7 @@ app.use((req, res, next) => {
 app.use('/api/v1/users/cards', userCardsRouter)
 
 // SERVE SITE
-app.get('/*', function (req, res) {
+app.get('*', function (req, res) {
   res.sendFile(path.join(__dirname, '../GWENTcards/build', 'index.html'))
 })
 
