@@ -65,7 +65,7 @@ router.post('/', (req, res) => {
           secure: true,
           maxAge: threeMonths,
           sameSite: 'Strict',
-          //   secure: true,
+          secure: process.env.NODE_ENV === 'production',
         })
         return res.status(201).send({ token: token })
       })
@@ -129,7 +129,7 @@ router.put('/', (req, res) => {
           secure: true,
           maxAge: threeMonths,
           sameSite: 'Strict',
-          //   secure: true,
+          secure: process.env.NODE_ENV === 'production',
         })
         return res.status(200).send({ token: token })
       }
