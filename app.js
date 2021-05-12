@@ -30,7 +30,7 @@ app.use(cookieParser())
 app.use('/api/v1/auth', authRouter)
 app.use('/api/v1/cards', cardsRouter)
 
-app.use((req, res, next) => {
+function checkJWT(req, res, next) {
   const token = req.cookies.token
 
   try {
@@ -56,11 +56,11 @@ app.use((req, res, next) => {
   } catch (err) {
     res.status(401).send(err)
   }
-})
-app.use('/api/v1/users/cards', userCardsRouter)
+}
+app.use('/api/v1/users/cards', checkJWT, userCardsRouter)
 
 // SERVE SITE
-app.get('*', function (req, res) {
+app.get('/*', function (req, res) {
   res.sendFile(path.join(__dirname, '../GWENTcards/build', 'index.html'))
 })
 
