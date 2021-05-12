@@ -24,7 +24,7 @@ router.get('/', (req, res) => {
       }
 
       const cardsReponse = {
-        amount: cards.length,
+        amount: cards?.length,
         cards: cards,
       }
 
@@ -54,7 +54,7 @@ router.post('/', (req, res) => {
       }
 
       const cardsResponse = {
-        amount: response.cards.length,
+        amount: response.cards?.length,
         cards: response.cards,
       }
 
