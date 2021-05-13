@@ -18,7 +18,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            cd /var/www/gwentapi
+            cd var/www/gwentapi
             git fetch --all
             git reset --hard origin/main
             npm i
