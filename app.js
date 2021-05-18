@@ -49,6 +49,26 @@ function checkJWT(req, res, next) {
         if (users.length < 1) {
           res.status(401).send('Error: user no longer exists')
         } else {
+          const threeMonths = 2592000000
+
+          const token = jwt.sign(
+            {
+              email: decoded.payload.email,
+              username: decoded.payload.username,
+            },
+            secret,
+            {
+              expiresIn: threeMonths,
+            }
+          )
+
+          res.cookie('token', token, {
+            httpOnly: true,
+            secure: true,
+            maxAge: threeMonths,
+            sameSite: 'Strict',
+            secure: process.env.NODE_ENV === 'production',
+          })
           next()
         }
       }

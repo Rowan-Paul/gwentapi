@@ -56,7 +56,7 @@ router.post('/', (req, res) => {
           username: user.username,
         }
 
-        const threeMonths = 7889400000
+        const threeMonths = 2592000000
 
         const token = jwt.sign(payload, secret, { expiresIn: threeMonths })
 
@@ -117,7 +117,7 @@ router.put('/', (req, res) => {
         username: user.username,
       }
 
-      const threeMonths = 7889400000
+      const threeMonths = 2592000000
 
       const token = jwt.sign(payload, secret, { expiresIn: threeMonths })
 
