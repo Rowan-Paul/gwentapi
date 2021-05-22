@@ -123,7 +123,7 @@
     "notes": "agile: can be placed in either the close combat or the ranged combat row. cannot be moved once placed."
   },
   {
-    "name": "francesca finabair: daisy of the valley",
+    "name": "francesca findabair: daisy of the valley",
     "deck": "scoia'tael",
     "row": "leader",
     "locations": [
@@ -258,7 +258,7 @@
   },
   {
     "abilities": ["hero", "morale boost"],
-    "name": "isengrim faolitiarna",
+    "name": "isengrim faoiltiarna",
     "deck": "scoia'tael",
     "row": "close",
     "strength": 10,
