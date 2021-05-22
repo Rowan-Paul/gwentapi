@@ -1,11 +1,11 @@
 const mongoose = require('mongoose')
-require('../models/Cards')
+require('../models/Card')
 
 const dbName = 'gwentcards'
 
 const db = mongoose.connection
 
-const Cards = mongoose.model('Cards')
+const Cards = mongoose.model('Card')
 
 const northernRealms = require('./northernRealms.json')
 const monsters = require('./monsters.json')
