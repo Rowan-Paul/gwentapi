@@ -23,7 +23,7 @@
     "notes": "agile: can be placed in either the close combat or the ranged combat row. cannot be moved once placed."
   },
   {
-    "name": "cdennis cranmer",
+    "name": "dennis cranmer",
     "deck": "scoia'tael",
     "row": "close",
     "strength": 6,
@@ -400,7 +400,7 @@
     "notes": "agile: can be placed in either the close combat or the ranged combat row. cannot be moved once placed."
   },
   {
-    "name": "yeavinn",
+    "name": "yaevinn",
     "deck": "scoia'tael",
     "row": "agile",
     "strength": 10,
@@ -410,6 +410,27 @@
         "territory": "skellige",
         "location": "kaer trolde harbor",
         "character": "sjusta the tailor"
+      }
+    ],
+    "notes": "agile: can be placed in either the close combat or the ranged combat row. cannot be moved once placed."
+  },
+  {
+    "name": "vrihedd brigade veteran",
+    "deck": "scoia'tael",
+    "row": "agile",
+    "strength": 5,
+    "locations": [
+      {
+        "type": "buy",
+        "territory": "novigrad",
+        "location": "the alchemy inn, oxenfurt",
+        "character": "stjepan"
+      },
+      {
+        "type": "buy",
+        "territory": "novigrad or velen",
+        "location": "kingfisher inn or circus camp near carsten",
+        "character": "innkeeper or trader"
       }
     ],
     "notes": "agile: can be placed in either the close combat or the ranged combat row. cannot be moved once placed."
