@@ -21,7 +21,7 @@
     "locations": [{ "type": "random" }]
   },
   {
-    "name": "black infanty archer",
+    "name": "black infantry archer",
     "deck": "nilfgaard",
     "row": "ranged",
     "strength": 10,
@@ -251,7 +251,7 @@
   },
   {
     "abilities": ["hero"],
-    "name": "movran voorhis",
+    "name": "morvran voorhis",
     "deck": "nilfgaard",
     "row": "siege",
     "strength": 10,
@@ -292,7 +292,7 @@
     ]
   },
   {
-    "name": "putkammer",
+    "name": "puttkamer",
     "deck": "nilfgaard",
     "row": "ranged",
     "strength": 3,
@@ -380,7 +380,7 @@
   },
   {
     "abilities": ["spy"],
-    "name": "steffan skellen",
+    "name": "stefan skellen",
     "deck": "nilfgaard",
     "row": "close",
     "strength": 9,
@@ -440,7 +440,7 @@
   },
   {
     "abilities": ["tight bond"],
-    "name": "young emissary",
+    "name": "young emmisary",
     "deck": "nilfgaard",
     "row": "close",
     "strength": 5,
