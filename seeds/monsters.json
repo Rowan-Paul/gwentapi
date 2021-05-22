@@ -464,5 +464,12 @@
     "row": "ranged",
     "strength": 2,
     "locations": [{ "type": "random" }]
+  },
+  {
+    "name": "endrega",
+    "deck": "monsters",
+    "row": "ranged",
+    "strength": 2,
+    "locations": [{ "type": "random" }]
   }
 ]
