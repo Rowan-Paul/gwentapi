@@ -17,7 +17,7 @@ const User = require('./models/User')
 // IMPORT ROUTES
 const cardsRouter = require('./routes/api/v1/cards')
 const authRouter = require('./routes/api/v1/auth')
-const userCardsRouter = require('./routes/api/v1/userCards')
+const userCardsRouter = require('./routes/api/v1/collectedCards')
 
 // MIDDLEWARE
 app.use(express.static(path.join(__dirname, '../GWENTcards/build')))
