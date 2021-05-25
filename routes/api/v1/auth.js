@@ -52,7 +52,7 @@ router.post('/', (req, res) => {
 
       newUser.save((err, user) => {
         if (err) {
-          return res.sendStatus(500)
+          return res.status(500).send(err)
         }
         const payload = {
           email: user.email,
@@ -70,10 +70,79 @@ router.post('/', (req, res) => {
           sameSite: 'Strict',
           secure: process.env.NODE_ENV === 'production',
         })
-        return res.status(201).send({ token: token })
+
+        const emailPayload = {
+          email: user.email,
+          username: user.username,
+        }
+
+        const oneHour = 3600000
+        const emailToken = jwt.sign(emailPayload, secret, {
+          expiresIn: oneHour,
+        })
+
+        const link = `https://gwentcards.net/verify-account?token=${emailToken}`
+
+        const msg = {
+          to: user.email,
+          from: 'support@gwentcards.net',
+          subject: 'New account',
+          text: 'A new account was created',
+          html: `<p>Dear ${user.username},</p> <p>Click the link below to verify your email: </p> <a href=${link}>${link}</a>`,
+        }
+        sgMail
+          .send(msg)
+          .then(() => {
+            return res.status(201).send({ token: token })
+          })
+          .catch((error) => {
+            console.log(error)
+          })
       })
     }
   )
+})
+
+// verify email
+router.put('/account/verify', (req, res) => {
+  const { body } = req
+  const { token } = body
+
+  try {
+    const decoded = jwt.verify(token, secret, { complete: true })
+
+    User.find(
+      {
+        email: decoded.payload.email,
+        username: decoded.payload.username,
+      },
+      (err, users) => {
+        if (err) {
+          throw 'Error: ' + error
+        }
+
+        if (users.length < 1) {
+          res.status(401).send('Error: user no longer exists')
+        } else {
+          User.findOneAndUpdate(
+            { email: decoded.payload.email },
+            {
+              verified: true,
+            },
+            (err, response) => {
+              if (err) {
+                throw 'Error: ' + error
+              }
+
+              res.status(201).send('Email verified')
+            }
+          )
+        }
+      }
+    )
+  } catch (err) {
+    res.status(401).send(err)
+  }
 })
 
 // Signin to account
@@ -194,6 +263,8 @@ router.post('/reset', (req, res) => {
 
         if (response.length < 1) {
           res.status(401).send('Error: user no longer exists')
+        } else if (!response[0].verfied) {
+          res.status(400).send('Error: user has not verified email')
         } else {
           const payload = {
             email: response[0].email,
@@ -272,6 +343,7 @@ router.put('/reset', (req, res) => {
     res.status(401).send(err)
   }
 })
+
 // delete account
 router.delete('/account', (req, res) => {
   const { body } = req

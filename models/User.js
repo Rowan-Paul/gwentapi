@@ -21,7 +21,12 @@ const UserSchema = new mongoose.Schema({
   },
   collected: {
     type: [],
-    required: false,
+    required: true,
+  },
+  verified: {
+    type: Boolean,
+    required: true,
+    default: false,
   },
 })
 
