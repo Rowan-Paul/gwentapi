@@ -272,7 +272,7 @@ router.put('/reset', (req, res) => {
     res.status(401).send(err)
   }
 })
-// reset password - edit password
+// delete account
 router.delete('/account', (req, res) => {
   const { body } = req
   const { username } = body
