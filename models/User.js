@@ -19,7 +19,7 @@ const UserSchema = new mongoose.Schema({
     default: Date.now(),
     required: true,
   },
-  cards: {
+  collected: {
     type: [],
     required: false,
   },

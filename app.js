@@ -17,7 +17,7 @@ const User = require('./models/User')
 // IMPORT ROUTES
 const cardsRouter = require('./routes/api/v1/cards')
 const authRouter = require('./routes/api/v1/auth')
-const userCardsRouter = require('./routes/api/v1/userCards')
+const userCardsRouter = require('./routes/api/v1/collectedCards')
 
 // MIDDLEWARE
 app.use(express.static(path.join(__dirname, '../GWENTcards/build')))
@@ -80,9 +80,11 @@ function checkJWT(req, res, next) {
 app.use('/api/v1/users/cards', checkJWT, userCardsRouter)
 
 // SERVE SITE
-app.get('/*', function (req, res) {
-  res.sendFile(path.join(__dirname, '../GWENTcards/build', 'index.html'))
-})
+if (process.env.NODE_ENV === 'production') {
+  app.get('/*', function (req, res) {
+    res.sendFile(path.join(__dirname, '../GWENTcards/build', 'index.html'))
+  })
+}
 
 // CREATE SERVER
 const server = app.listen(port, () => {

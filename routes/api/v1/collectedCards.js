@@ -18,23 +18,17 @@ router.get('/', (req, res) => {
       return res.sendStatus(500)
     }
 
-    Card.find({ _id: { $in: response.cards } }, { __v: 0 }, (err, cards) => {
-      if (err) {
-        res.sendStatus(500)
-      }
+    const formattedResponse = {
+      amount: response.collected?.length,
+      collected: response.collected,
+    }
 
-      const cardsReponse = {
-        amount: cards?.length,
-        cards: cards,
-      }
-
-      res.status(200).send(cardsReponse)
-    })
+    res.status(200).send(formattedResponse)
   })
 })
 
 router.post('/', (req, res) => {
-  const { cards } = req.body
+  const { collected } = req.body
 
   const token = req.cookies.token
 
@@ -43,9 +37,7 @@ router.post('/', (req, res) => {
   User.findOneAndUpdate(
     { username: decoded.payload.username },
     {
-      $push: {
-        cards: cards,
-      },
+      collected: collected,
     },
     { new: true },
     (error, response) => {
@@ -53,12 +45,12 @@ router.post('/', (req, res) => {
         res.sendStatus(500)
       }
 
-      const cardsResponse = {
-        amount: response.cards?.length,
-        cards: response.cards,
+      const formattedResponse = {
+        amount: response.collected?.length,
+        collected: response.collected,
       }
 
-      res.status(200).send(cardsResponse)
+      res.status(201).send(formattedResponse)
     }
   )
 })

@@ -1,11 +1,13 @@
 const mongoose = require('mongoose')
 require('../models/Card')
+require('../models/User')
 
 const dbName = 'gwentcards'
 
 const db = mongoose.connection
 
-const Cards = mongoose.model('Card')
+const Card = mongoose.model('Card')
+const User = mongoose.model('User')
 
 const northernRealms = require('./northernRealms.json')
 const monsters = require('./monsters.json')
@@ -20,34 +22,48 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => {
-    return Cards.deleteMany()
+    return Card.deleteMany()
   })
   .then(() => {
     console.log('Deleted cards')
-    return Cards.insertMany(northernRealms)
+    return Card.insertMany(northernRealms)
   })
   .then(() => {
     console.log('Inserted Northern Realms cards')
-    return Cards.insertMany(monsters)
+    return Card.insertMany(monsters)
   })
   .then(() => {
     console.log('Inserted Monsters cards')
-    return Cards.insertMany(nilfgaard)
+    return Card.insertMany(nilfgaard)
   })
   .then(() => {
     console.log('Inserted Nilfgaard cards')
-    return Cards.insertMany(scoiatael)
+    return Card.insertMany(scoiatael)
   })
   .then(() => {
     console.log('Inserted Scoiatael cards')
-    return Cards.insertMany(neutral)
+    return Card.insertMany(neutral)
   })
   .then(() => {
-    console.log('Inserted skellige cards')
-    return Cards.insertMany(skellige)
+    console.log('Inserted Neutral cards')
+    return Card.insertMany(skellige)
   })
   .then(() => {
-    console.log('Inserted skellige cards')
+    console.log('Inserted Skellige cards')
+    return User.deleteMany()
+  })
+  .then(() => {
+    console.log('Deleted users')
+
+    const newUser = new User()
+    newUser.email = 'mail@example.com'
+    newUser.password = newUser.generateHash('password')
+    newUser.username = 'rpf'
+
+    return newUser.save()
+  })
+  .then(() => {
+    console.log('Created new user')
   })
   .catch((err) => {
     console.log(err)
