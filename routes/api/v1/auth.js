@@ -272,5 +272,40 @@ router.put('/reset', (req, res) => {
     res.status(401).send(err)
   }
 })
+// reset password - edit password
+router.delete('/account', (req, res) => {
+  const { body } = req
+  const { username } = body
+  const { password } = body
+
+  User.find(
+    {
+      $or: [{ email: username }, { username: username }],
+    },
+    (err, users) => {
+      if (err) {
+        return res.sendStatus(500)
+      }
+
+      if (users.length != 1) {
+        return res.status(401).send('Error: Invalid username')
+      }
+
+      const user = users[0]
+
+      if (!user.validPassword(password)) {
+        return res.status(401).send('Error: Invalid password')
+      }
+
+      User.findOneAndDelete({ _id: user._id }, function (err, docs) {
+        if (err) {
+          console.log(err)
+        }
+
+        res.sendStatus(201)
+      })
+    }
+  )
+})
 
 module.exports = router
