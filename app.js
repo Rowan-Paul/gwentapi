@@ -6,6 +6,7 @@ const bodyParser = require('body-parser')
 const path = require('path')
 const cookieParser = require('cookie-parser')
 const jwt = require('jsonwebtoken')
+require('dotenv').config()
 
 const app = express()
 const port = process.env.PORT || '3000'
@@ -49,7 +50,7 @@ function checkJWT(req, res, next) {
         if (users.length < 1) {
           res.status(401).send('Error: user no longer exists')
         } else {
-          const threeMonths = 2592000000
+          const thirtyDays = 2592000000
 
           const token = jwt.sign(
             {
@@ -58,14 +59,14 @@ function checkJWT(req, res, next) {
             },
             secret,
             {
-              expiresIn: threeMonths,
+              expiresIn: thirtyDays,
             }
           )
 
           res.cookie('token', token, {
             httpOnly: true,
             secure: true,
-            maxAge: threeMonths,
+            maxAge: thirtyDays,
             sameSite: 'Strict',
             secure: process.env.NODE_ENV === 'production',
           })
