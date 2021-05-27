@@ -263,7 +263,7 @@ router.post('/reset', (req, res) => {
 
         if (response.length < 1) {
           res.status(401).send('Error: user no longer exists')
-        } else if (!response[0].verfied) {
+        } else if (!response[0].verified) {
           res.status(400).send('Error: user has not verified email')
         } else {
           const payload = {
@@ -297,7 +297,7 @@ router.post('/reset', (req, res) => {
       console.log(err)
     })
   } catch (err) {
-    res.status(401).send(err)
+    res.status(400).send(err)
   }
 })
 
