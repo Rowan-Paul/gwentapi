@@ -81,11 +81,9 @@ function checkJWT(req, res, next) {
 app.use('/api/v1/users/cards', checkJWT, userCardsRouter)
 
 // SERVE SITE
-if (process.env.NODE_ENV === 'production') {
-  app.get('/*', function (req, res) {
-    res.sendFile(path.join(__dirname, '../GWENTcards/build', 'index.html'))
-  })
-}
+app.get('/*', function (req, res) {
+  res.sendFile(path.join(__dirname, '../GWENTcards/build', 'index.html'))
+})
 
 // CREATE SERVER
 const server = app.listen(port, () => {
