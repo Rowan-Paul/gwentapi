@@ -55,4 +55,24 @@ router.post('/', (req, res) => {
   )
 })
 
+router.delete('/', (req, res) => {
+  const { card } = req.body
+
+  const token = req.cookies.token
+
+  const decoded = jwt.verify(token, secret, { complete: true })
+
+  User.updateOne(
+    { username: decoded.payload.username },
+    { $pullAll: { collected: [card] } },
+    (error, response) => {
+      if (error) {
+        res.sendStatus(500)
+      }
+
+      res.sendStatus(201)
+    }
+  )
+})
+
 module.exports = router
