@@ -4,4 +4,4 @@ This is a project serves the API for the GWENTcards site from the [Rowan-Paul/GW
 
 ## Installation
 
-To run the server locally, run `npm install` followed by `npm start` or `nodemon app` if you'd rather use nodemon.
+To run the server locally, run `npm install` followed by `npm start` or `nodemon app` if you'd rather use nodemon. You can seed the files using ``node seeds/seed.js``, this fills the database with the cards and a dummy user.
