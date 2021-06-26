@@ -8,7 +8,7 @@ To run the server locally, run `npm install` followed by `npm start` or `nodemon
 
 ## Environment variables
 
-In order to run the application locally, you need the following env variables inside a ``.env`` or ``.env.local`` file in the project root. By default the project already contains a ``.env`` files with the correct strings that are used on the production site. Note that React packages these variables with the rest of the application *so these aren't secret*.
+In order to run the application locally, you need the following env variables inside a ``.env`` or ``.env.local`` file in the project root.
 
 | Name                 	| Description                                                                     	|
 |----------------------	|---------------------------------------------------------------------------------	|
