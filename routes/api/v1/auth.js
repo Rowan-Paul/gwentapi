@@ -96,7 +96,9 @@ router.post('/', (req, res) => {
             return res.status(201).send({ token: token })
           })
           .catch((error) => {
-            console.log(error)
+            return res
+              .status(500)
+              .send("Couldn't send email, but did make an account")
           })
       })
     }
