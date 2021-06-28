@@ -30,6 +30,7 @@ router.get('/card?*', (req, res) => {
   const { strength } = req.query
   const { abilities } = req.query
   const { effect } = req.query
+  const { dlc } = req.query
 
   const query = {}
 
@@ -47,6 +48,9 @@ router.get('/card?*', (req, res) => {
   }
   if (effect) {
     query.effect = { $in: formatArray(effect) }
+  }
+  if (dlc) {
+    query.expansion = { $in: formatArray(dlc) }
   }
 
   Card.find(query, { __v: 0 }).exec(function (err, response) {
