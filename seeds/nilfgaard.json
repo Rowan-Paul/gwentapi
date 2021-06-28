@@ -95,7 +95,9 @@
         "character": "trader"
       }
     ],
-    "notes": "invader of the north: abilities that restore a unit to the battlefield restore a randomly-chosen unit. affects both players."
+    "notes": "invader of the north: abilities that restore a unit to the battlefield restore a randomly-chosen unit. affects both players.",
+    "isDLC": true,
+    "expansion": "hearts of stone"
   },
   {
     "name": "emhyr var emreis: the relentless",

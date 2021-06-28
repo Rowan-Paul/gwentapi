@@ -5,7 +5,9 @@
     "row": "close",
     "strength": 4,
     "locations": [{ "type": "base deck" }],
-    "effect": "berserker"
+    "effect": "berserker",
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "birna bran",
@@ -13,14 +15,18 @@
     "row": "close",
     "strength": 2,
     "locations": [{ "type": "base deck" }],
-    "abilities": ["medic"]
+    "abilities": ["medic"],
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "blueboy lugos",
     "deck": "skellige",
     "row": "close",
     "strength": 6,
-    "locations": [{ "type": "base deck" }]
+    "locations": [{ "type": "base deck" }],
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "cerys",
@@ -35,7 +41,9 @@
         "character": "innkeep"
       }
     ],
-    "abilities": ["hero"]
+    "abilities": ["hero"],
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "clan brokvar archer",
@@ -51,7 +59,9 @@
         "location": "castel ravello vineyard",
         "character": "herbalist"
       }
-    ]
+    ],
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "clan dimun pirate",
@@ -66,7 +76,9 @@
         "character": "merchant"
       }
     ],
-    "effect": "scorch"
+    "effect": "scorch",
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "clan drummond shield maiden",
@@ -88,14 +100,18 @@
         "character": "armorer"
       }
     ],
-    "abilities": ["tight bond"]
+    "abilities": ["tight bond"],
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "clan heymaey skald",
     "deck": "skellige",
     "row": "close",
     "strength": 4,
-    "locations": [{ "type": "base deck" }]
+    "locations": [{ "type": "base deck" }],
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "clan an craite warrior",
@@ -103,20 +119,26 @@
     "row": "close",
     "strength": 6,
     "locations": [{ "type": "base deck" }],
-    "abilities": ["tight bond"]
+    "abilities": ["tight bond"],
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "crach an craite",
     "deck": "skellige",
     "locations": [{ "type": "base deck" }],
-    "notes": "shuffle all cards from each player's graveyard back into their decks."
+    "notes": "shuffle all cards from each player's graveyard back into their decks.",
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "donar an hindar",
     "deck": "skellige",
     "row": "close",
     "strength": 4,
-    "locations": [{ "type": "base deck" }]
+    "locations": [{ "type": "base deck" }],
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "draig bon-dhu",
@@ -131,7 +153,9 @@
         "character": "innkeep"
       }
     ],
-    "effect": "commander's horn"
+    "effect": "commander's horn",
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "ermion",
@@ -147,7 +171,9 @@
       }
     ],
     "abilities": ["hero"],
-    "effect": "mardroeme"
+    "effect": "mardroeme",
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "hjalmar",
@@ -155,14 +181,18 @@
     "row": "ranged",
     "strength": 10,
     "locations": [{ "type": "base deck" }],
-    "abilities": ["hero"]
+    "abilities": ["hero"],
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "holger blackhand",
     "deck": "skellige",
     "row": "siege",
     "strength": 4,
-    "locations": [{ "type": "base deck" }]
+    "locations": [{ "type": "base deck" }],
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "king bran",
@@ -175,7 +205,9 @@
         "character": "ducal camerlengo (quest: gwent: turn, turn, tournament)"
       }
     ],
-    "notes": "units only lose half their strength in bad weather conditions."
+    "notes": "units only lose half their strength in bad weather conditions.",
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "light longship",
@@ -192,14 +224,18 @@
         "character": "perfumery merchant"
       }
     ],
-    "abilities": ["muster"]
+    "abilities": ["muster"],
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "madman lugos",
     "deck": "skellige",
     "row": "close",
     "strength": 6,
-    "locations": [{ "type": "base deck" }]
+    "locations": [{ "type": "base deck" }],
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "mardroeme",
@@ -220,7 +256,9 @@
         "location": "the belles of beauclair inkeep, san sebastian",
         "character": "madame"
       }
-    ]
+    ],
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "kambi",
@@ -236,21 +274,27 @@
       }
     ],
     "abilities": ["morale boost"],
-    "notes": "agile: can be placed in either the close combat or the ranged combat row. cannot be moved once placed"
+    "notes": "agile: can be placed in either the close combat or the ranged combat row. cannot be moved once placed",
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "svanrige",
     "deck": "skellige",
     "row": "close",
     "strength": 4,
-    "locations": [{ "type": "base deck" }]
+    "locations": [{ "type": "base deck" }],
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "udalryk",
     "deck": "skellige",
     "row": "close",
     "strength": 4,
-    "locations": [{ "type": "base deck" }]
+    "locations": [{ "type": "base deck" }],
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "war longship",
@@ -267,7 +311,9 @@
         "character": "innkeep"
       }
     ],
-    "abilities": ["tight bond"]
+    "abilities": ["tight bond"],
+    "isDLC": true,
+    "expansion": "blood and wine"
   },
   {
     "name": "young berserker",
@@ -288,6 +334,8 @@
         "location": "tailor's workshop, beauclair market",
         "character": "pierre"
       }
-    ]
+    ],
+    "isDLC": true,
+    "expansion": "blood and wine"
   }
 ]

@@ -121,6 +121,29 @@ router.get('/rows/:row', (req, res) => {
   })
 })
 
+router.get('/dlc', (req, res) => {
+  Card.find({ isDLC: true }, { __v: 0 }, (err, cards) => {
+    if (err) {
+      return res.status(500)
+    }
+
+    return res.status(200).send(cards)
+  })
+})
+
+router.get('/dlc/:dlc', (req, res) => {
+  const { dlc } = req.params
+
+  Card.find({ expansion: dlc }, { __v: 0 }, (err, cards) => {
+    if (err) {
+      return res.status(500)
+    }
+
+    return res.status(200).send(cards)
+  })
+})
+
+// this one needs to go last
 router.get('/:card', (req, res) => {
   const { card } = req.params
 

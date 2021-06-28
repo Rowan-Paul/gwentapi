@@ -62,6 +62,15 @@ const CardSchema = new mongoose.Schema({
     type: String,
     required: false,
   },
+  isDLC: {
+    type: Boolean,
+    required: true,
+    default: false,
+  },
+  expansion: {
+    type: String,
+    required: false,
+  },
 })
 
 module.exports = mongoose.model('Card', CardSchema)

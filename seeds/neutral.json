@@ -80,7 +80,9 @@
     "locations": [
       { "type": "win", "territory": "velen", "location": "a barn, brunwich" }
     ],
-    "effect": "summon avenger"
+    "effect": "summon avenger",
+    "isDLC": true,
+    "expansion": "hearts of stone"
   },
   {
     "name": "dandelion",
@@ -148,7 +150,9 @@
         "character": "hilbert (quest open sesame!)"
       }
     ],
-    "abilities": ["muster"]
+    "abilities": ["muster"],
+    "isDLC": true,
+    "expansion": "hearts of stone"
   },
   {
     "name": "gaunter o'dimm: darkness",
@@ -175,7 +179,9 @@
         "character": "trader"
       }
     ],
-    "abilities": ["muster"]
+    "abilities": ["muster"],
+    "isDLC": true,
+    "expansion": "hearts of stone"
   },
   {
     "name": "geralt of rivia",
@@ -232,7 +238,9 @@
         "character": "shani or shani's house if she's left"
       }
     ],
-    "notes": "agile: can be placed in either the close combat or the ranged combat row. cannot be moved once placed."
+    "notes": "agile: can be placed in either the close combat or the ranged combat row. cannot be moved once placed.",
+    "isDLC": true,
+    "expansion": "hearts of stone"
   },
   {
     "name": "scorch",

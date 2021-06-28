@@ -141,7 +141,9 @@
         "character": " dulla kh'amanni"
       }
     ],
-    "notes": "doubles the strength of all spy cards (affects both players)."
+    "notes": "doubles the strength of all spy cards (affects both players).",
+    "isDLC": true,
+    "expansion": "hearts of stone"
   },
   {
     "name": "eredin: bringer of death",
@@ -374,7 +376,9 @@
     "locations": [
       { "type": "win", "territory": "velen", "character": "olgierd von everec" }
     ],
-    "effect": "scorch"
+    "effect": "scorch",
+    "isDLC": true,
+    "expansion": "hearts of stone"
   },
   {
     "abilities": ["muster"],

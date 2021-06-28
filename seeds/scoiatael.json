@@ -148,7 +148,9 @@
         "character": "dula kh'amanni"
       }
     ],
-    "notes": "hope of the aen seidhe: move agile units to whichever valid row maximizes their strength (don't move units already in optimal row)."
+    "notes": "hope of the aen seidhe: move agile units to whichever valid row maximizes their strength (don't move units already in optimal row).",
+    "isDLC": true,
+    "expansion": "hearts of stone"
   },
   {
     "name": "francesca findabair: pureblood elf",
@@ -365,7 +367,9 @@
         "character": "merchant"
       }
     ],
-    "effect": "scorch"
+    "effect": "scorch",
+    "isDLC": true,
+    "expansion": "hearts of stone"
   },
   {
     "abilities": ["hero"],

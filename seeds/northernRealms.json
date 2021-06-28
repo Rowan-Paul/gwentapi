@@ -135,7 +135,9 @@
         "character": "merchant"
       }
     ],
-    "notes": "destroy your enemy's strongest ranged combat unit(s) if the combined strength of all his or her ranged combat units is 10 or more."
+    "notes": "destroy your enemy's strongest ranged combat unit(s) if the combined strength of all his or her ranged combat units is 10 or more.",
+    "isDLC": true,
+    "expansion": "hearts of stone"
   },
   {
     "name": "foltest: the siegemaster",
