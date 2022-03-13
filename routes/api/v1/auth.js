@@ -81,7 +81,7 @@ router.post('/', (req, res) => {
           expiresIn: oneHour,
         })
 
-        const link = `https://gwentcards.net/verify-account?token=${emailToken}`
+        const link = `https://old.gwentcards.net/verify-account?token=${emailToken}`
 
         const msg = {
           to: user.email,
@@ -276,7 +276,7 @@ router.post('/reset', (req, res) => {
           const oneHour = 3600000
           const token = jwt.sign(payload, secret, { expiresIn: oneHour })
 
-          const link = `https://gwentcards.net/reset-password?token=${token}`
+          const link = `https://old.gwentcards.net/reset-password?token=${token}`
 
           const msg = {
             to: response[0].email,
