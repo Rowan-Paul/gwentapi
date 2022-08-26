@@ -88,7 +88,7 @@ app.get('/*', function (req, res) {
 // CREATE SERVER
 const server = app.listen(port, () => {
   mongoose.connect(
-    `mongodb://localhost:27017/${dbName}`,
+    process.env.DATABASE_URL,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
